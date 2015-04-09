@@ -1,19 +1,21 @@
 .navbar-default{
-    background-color: transparent;
+    background-color: #4E5860;
     border-color: transparent;
     
 }
 
 .navbar-nav > li > a {
-    margin-top: 20px;
     color: #fff !important;
 }
 
 .navbar-nav {
-    margin-left: 12%;
+    margin-left: 15%;
     float: left;
 }
 
+.page-scroll {
+    margin-top: 15px;
+}
 
 h1 {
     font-family: Raleway, sans-serif;
@@ -138,7 +140,8 @@ content: "\2014 \2009";
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
-    background-color: #eee !important;
+    background-color: transparent;
+    border-bottom: thick solid #fff;
 }
 
 nav{
