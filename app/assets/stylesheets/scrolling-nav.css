@@ -55,21 +55,21 @@ of those sections to manage the look and feel of the site. */
     background: #d14b3a;
 }
 .servicios2-section {
-    height: 40%;
-    padding-top: 60px;
+    height: 100%;
+    padding-top: 50px;
     text-align: center;
     background: #656d7a;
 }
 
 .regiones-section {
-    height: 140%;
+    height: 150%;
     padding-top: 75px;
     text-align: center;
     background: #fff;
 }
 .eventos-section {
     height: 100%;
-    padding-top: 150px;
+    padding-top: 75px;
     text-align: center;
     background: #d14b3a;
 }

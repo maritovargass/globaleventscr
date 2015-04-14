@@ -114,6 +114,16 @@ top: -20px;
 color: #fff;
 }
 
+blockquote:after {
+display: block;
+content: "\201E";
+font-size: 80px;
+position: absolute;
+left: 620px;
+top: 70px;
+color: #fff;
+}
+
 blockquote cite {
 font-family: Raleway, sans-serif;
 color: #fff;
