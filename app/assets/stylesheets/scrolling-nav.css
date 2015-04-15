@@ -42,8 +42,8 @@ of those sections to manage the look and feel of the site. */
 }
 
 .nosotros-section {
-    height: 80%;
-    padding-top: 90px;
+    height: 60%;
+    padding-top: 60px;
     text-align: left;
     background: #eee;
 }
@@ -86,3 +86,11 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #303030;
 }
+
+.tours-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #d14b3a;
+}
+
