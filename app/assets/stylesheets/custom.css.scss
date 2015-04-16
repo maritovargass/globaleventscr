@@ -187,14 +187,14 @@ hr {
    z-index: 999;
 }
 
-@media(max-width:992px) {
+@media(max-width:0px) {
    .navbar-nav {
      margin-left: 1% !important;
     float: left;
    } 
 }
 
-@media(max-width:767px) {
+@media(max-width:0px) {
     .navbar-default{
     background-color: #F8F8F8;
     border-color: #F8F8F8;
