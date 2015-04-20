@@ -42,14 +42,14 @@ of those sections to manage the look and feel of the site. */
 }
 
 .nosotros-section {
-    height: 60%;
+    height: 70%;
     padding-top: 60px;
     text-align: left;
     background: #eee;
 }
 
 .servicios-section {
-    height: 80%;
+    height: 95%;
     padding-top: 75px;
     text-align: center;
     background: #d14b3a;
@@ -62,7 +62,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .regiones-section {
-    height: 150%;
+    height: 170%;
     padding-top: 75px;
     text-align: center;
     background: #fff;
