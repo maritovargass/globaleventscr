@@ -93,6 +93,11 @@ p{
     padding-bottom: 25px;
 }
 
+.collapse {
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 blockquote {
 font-family: Raleway, sans-serif;
 font-size: 18px;
@@ -170,9 +175,10 @@ hr {
 }
 
 .col-md-2 {
-    padding-left: 0px !important;
+    padding-left: 10px !important;
     padding-right: 0px !important;
-    border: 1px solid #eee;
+    padding-bottom: 10px !important;
+    border: 0px solid #eee;
 }
 
 .overlay {

@@ -87,7 +87,33 @@ of those sections to manage the look and feel of the site. */
     background: #303030;
 }
 
-.tours-section {
+.decoration-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee;
+}
+
+.dine-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #d14b3a;
+}
+.norte-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #d14b3a;
+}
+
+.central-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee;
+}
+.valle-section {
     height: 100%;
     padding-top: 100px;
     text-align: center;

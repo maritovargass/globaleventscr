@@ -13,6 +13,8 @@
 
     <!-- Custom CSS -->
     <link href="stylesheet/application.css" rel="stylesheet">
+<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
 
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
@@ -75,93 +77,11 @@
     </nav>
 
 
-    <!-- Servicios Section -->
-    <section id="servicios" class="tours-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>Testimonials</h1>
+    <!-- Decoracion Section -->
+    <section id="servicios" class="decoration-section">
+       <h7>Decoration</h7>
                     <hr></hr>
-                    <h5>Our thinking is unique, and we take care to translate this into our events.</h5><br><br>
-                    <div id="testimonios" class="carousel slide" data-ride="carousel">
-                      <ol class="carousel-indicators" style="bottom: -30px;">
- <li data-target="#testimonios" data-slide-to="0" class="active"></li>
- <li data-target="#testimonios" data-slide-to="1"></li>
-</ol>
-<div class="carousel-inner">
- <div class="item active">
-  <blockquote>There are people who do their job and do it well, and they are efficient. But there are people who do their job well, it prints at the same time a dose of professionalism, passion, joy, customer service, quality, etc. All these added values are the ones we perceive from Global Events, especially in your part because you were really special; also I like to take this opportunity to express my thanks and appreciation to Marianela for a well done job. You can be sure that it was our pleasure to work with you; you are a real team success. Thank you very much
-<cite>Priscilla Araya Barquero - BN</cite></blockquote> 
- </div>
- <div class="item">
-  <blockquote>Definitely want to use your service. As a company you impressed me from the beginning with your comprehensive, quick and professional response.
-<cite>Pat Foley. Event Planner</cite></blockquote> 
- </div>
-</div>
-                </div>
-            </div>
-
-        </div>
-        <p style="text-align: center; margin-left: 10%; margin-top: 100px;"><%= image_tag("mail.svg", width: '20px') %> contactus@globaleventsdmc.com<%= image_tag("phone.svg", width: '20px') %>Phone: + (506) 2291-8173</p>
-    </section>
-    <!-- Regiones Section -->
-    <section id="regiones" class="regiones-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                   <h7>Regions of Costa Rica</h7><br>
-                    <%= image_tag("hr_line.png", class: "line") %><br>
-                    <h8>Costa Rica is the ideal antidote to release the stress, balancing laid-back hospitality with first-class amenities. We welcome visitors with genuine warmth and recognized courtesy. Superlative hotels and resorts, two international airports servicing more than 60 flights from North America and Europe, first-world retail and sporting facilities against a backdrop of breathtaking and hugely diverse natural beauty make us today’s destination of choice. Imagine a country without armed forces, an enviable track record in health care and education, solid democracy and a quarter of its land mass protected as nature reserves or national parks. This is Costa Rica. Treat yourself.</h8>
-                </div>
-                <div class="row">
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag("norte.jpg", width: '370') %>
-      <div class="caption">
-        <h3>North Pacific</h3>
-        <p style="text-align: left;">The province of Guanacaste is filled with nature, adventure, folklore and many other attractions, with endless options for recreation, there are countless reasons everyone wants to travel to Guanacaste and stay in one of their exclusive resorts.
-</p>
-        <p><a href="#" class="btn btn-danger" role="button">Read More</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag("webjpg-43.jpg", width: '370') %>
-      <div class="caption">
-        <h3>Central Pacific</h3>
-        <p style="text-align: left;">We could say that is one of the most popular tourist destinations in Costa Rica. The Mid Pacific region of the country is also the most accessible. Only 1 hour and 15 minutes away from San Jose, this area is known for its beautiful beaches, coastal tourist towns, fantastic surfing opportunities, and an unimaginable biodiversity for nature lovers.  Offering visitors the opportunity to enjoy different activities including fishing and canopy tours, the adventure of walking at Carara National or Manuel Antonio National Parks, where wildlife emerges and gives a spectacular show to our guests.
-</p>
-        <p><a href="#" class="btn btn-danger" role="button">Read More</a></p>
-      </div>
-    </div>
-  </div>
-  <div class="col-sm-6 col-md-4">
-    <div class="thumbnail">
-      <%= image_tag("central.jpg", width: '370') %>
-      <div class="caption">
-        <h3>Central Valley</h3>
-        <p style="text-align: left;">The Central Valley (Spanish: Valle Central) is a plateau and a geographic region of central Costa Rica. The land in the valley is a relative plain, despite being surrounded by several mountains and volcanos.With endless options for recreation, there are countless reasons everyone wants to travel to San Jose and stay in one of their exclusive hotels.
-</p>
-        <p><a href="#" class="btn btn-danger" role="button">Read More</a></p>
-      </div>
-    </div>
-  </div>
-</div>
-            </div>
-        </div>
-        <p style="text-align: center; margin-left: 10%; margin-top: 20px;"><%= image_tag("mail.svg", width: '20px') %> contactus@globaleventsdmc.com<%= image_tag("phone.svg", width: '20px') %>Phone: + (506) 2291-8173</p>
-    </section>
-     <!-- Eventos Section -->
-    <section id="eventos" class="eventos-section">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <h1>OUR SERVICES</h1>
-                    <hr></hr>
-                    <h5>We commit to our clients.</h5><br><br>
-                </div>
-                <div class="row">
+       <div class="row" style="margin-top: 100px;">
             <div class="col-md-2 portfolio-item">
                 <a>
                     <%= image_tag("event1.jpg", width: '200') %>
@@ -222,15 +142,392 @@
                     <%= image_tag("event12.jpg", width: '200') %>
                 </a>
             </div>
-            
-
-
-        </div>
-        <br><br>
-        <a href="pages/servicios" class="btn btn-default" role="button">View Gallery</a>
+</div>
+</div>
+    </section>
+ <!-- Dine Around Section -->
+    <section id="servicios" class="dine-section">
+       <h1>Dine Around</h1>
+                    <hr></hr>
+       <div class="row" style="margin-top: 100px;">
+            <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event1.jpg", width: '200') %>
+                </a>
+            </div>
+            <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event2.jpg", width: '200') %>
+                </a>
+            </div>
+            <div class="col-md-2 portfolio-item">
+                <a>
+                   <%= image_tag("event3.jpg", width: '200') %>
+                </a>
+            </div>
+            <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event4.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                   <%= image_tag("event5.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event6.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event7.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event8.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event9.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event10.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event11.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event12.jpg", width: '200') %>
+                </a>
+            </div>
+</div>
+    </section>
+     <!-- Entertainment Section -->
+    <section id="servicios" class="decoration-section">
+       <h7>Entertainment</h7>
+                    <hr></hr>
+       <div class="row" style="margin-top: 100px;">
+            <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event1.jpg", width: '200') %>
+                </a>
+            </div>
+            <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event2.jpg", width: '200') %>
+                </a>
+            </div>
+            <div class="col-md-2 portfolio-item">
+                <a>
+                   <%= image_tag("event3.jpg", width: '200') %>
+                </a>
+            </div>
+            <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event4.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                   <%= image_tag("event5.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event6.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event7.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event8.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event9.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event10.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event11.jpg", width: '200') %>
+                </a>
+            </div>
+             <div class="col-md-2 portfolio-item">
+                <a>
+                    <%= image_tag("event12.jpg", width: '200') %>
+                </a>
+            </div>
+</div>
+    </section>
+ <!-- Giveaways Section -->
+    <section id="servicios" class="dine-section">
+       <h1>Giveaways</h1>
+                    <hr></hr>
+       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
             </div>
         </div>
-        <p style="text-align: center; margin-left: 10%; margin-top: 20px;"><%= image_tag("mail.svg", width: '20px') %> contactus@globaleventsdmc.com<%= image_tag("phone.svg", width: '20px') %>Phone: + (506) 2291-8173</p>
+    </div>
+</div>
+<div id="links">
+    <a href="images/banana.jpg" title="Banana" data-gallery>
+        <img src="images/thumbnails/banana.jpg" alt="Banana">
+    </a>
+    <a href="images/apple.jpg" title="Apple" data-gallery>
+        <img src="images/thumbnails/apple.jpg" alt="Apple">
+    </a>
+    <a href="images/orange.jpg" title="Orange" data-gallery>
+        <img src="images/thumbnails/orange.jpg" alt="Orange">
+    </a>
+</div>
+    </section>
+     <!-- Meet and Greet Section -->
+    <section id="servicios" class="decoration-section">
+       <h7>Meet and Greet</h7>
+                    <hr></hr>
+       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="links">
+    <a href="images/banana.jpg" title="Banana" data-gallery>
+        <img src="images/thumbnails/banana.jpg" alt="Banana">
+    </a>
+    <a href="images/apple.jpg" title="Apple" data-gallery>
+        <img src="images/thumbnails/apple.jpg" alt="Apple">
+    </a>
+    <a href="images/orange.jpg" title="Orange" data-gallery>
+        <img src="images/thumbnails/orange.jpg" alt="Orange">
+    </a>
+</div>
+    </section>
+ <!-- Outreach Section -->
+    <section id="servicios" class="dine-section">
+       <h1>Outreach</h1>
+                    <hr></hr>
+       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="links">
+    <a href="images/banana.jpg" title="Banana" data-gallery>
+        <img src="images/thumbnails/banana.jpg" alt="Banana">
+    </a>
+    <a href="images/apple.jpg" title="Apple" data-gallery>
+        <img src="images/thumbnails/apple.jpg" alt="Apple">
+    </a>
+    <a href="images/orange.jpg" title="Orange" data-gallery>
+        <img src="images/thumbnails/orange.jpg" alt="Orange">
+    </a>
+</div>
+    </section>
+     <!-- Team Building Section -->
+    <section id="servicios" class="decoration-section">
+       <h7>Team Building</h7>
+                    <hr></hr>
+       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="links">
+    <a href="images/banana.jpg" title="Banana" data-gallery>
+        <img src="images/thumbnails/banana.jpg" alt="Banana">
+    </a>
+    <a href="images/apple.jpg" title="Apple" data-gallery>
+        <img src="images/thumbnails/apple.jpg" alt="Apple">
+    </a>
+    <a href="images/orange.jpg" title="Orange" data-gallery>
+        <img src="images/thumbnails/orange.jpg" alt="Orange">
+    </a>
+</div>
+    </section>
+     <!-- Tours Section -->
+    <section id="servicios" class="dine-section">
+       <h1>Tours</h1>
+                    <hr></hr>
+       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
+<div id="blueimp-gallery" class="blueimp-gallery">
+    <!-- The container for the modal slides -->
+    <div class="slides"></div>
+    <!-- Controls for the borderless lightbox -->
+    <h3 class="title"></h3>
+    <a class="prev">‹</a>
+    <a class="next">›</a>
+    <a class="close">×</a>
+    <a class="play-pause"></a>
+    <ol class="indicator"></ol>
+    <!-- The modal dialog, which will be used to wrap the lightbox content -->
+    <div class="modal fade">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body next"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default pull-left prev">
+                        <i class="glyphicon glyphicon-chevron-left"></i>
+                        Previous
+                    </button>
+                    <button type="button" class="btn btn-primary next">
+                        Next
+                        <i class="glyphicon glyphicon-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="links">
+    <a href="images/banana.jpg" title="Banana" data-gallery>
+        <img src="images/thumbnails/banana.jpg" alt="Banana">
+    </a>
+    <a href="images/apple.jpg" title="Apple" data-gallery>
+        <img src="images/thumbnails/apple.jpg" alt="Apple">
+    </a>
+    <a href="images/orange.jpg" title="Orange" data-gallery>
+        <img src="images/thumbnails/orange.jpg" alt="Orange">
+    </a>
+</div>
     </section>
      <!-- Contactenos Section -->
     <section id="contactenos" class="contactenos-section">
@@ -318,7 +615,9 @@ interval: 10000
  });
 });
 </script>
-
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="javascripts/bootstrap-image-gallery.min.js"></script>
 </body>
 
 </html>

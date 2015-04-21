@@ -1,2 +1,306 @@
-<h1>Pages#regiones</h1>
-<p>Find me in app/views/pages/regiones.html.erb</p>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Scrolling Nav - Start Bootstrap Template</title>
+
+    <!-- Custom CSS -->
+    <link href="stylesheet/application.css" rel="stylesheet">
+<link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
+<link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<!-- The #page-top ID is part of the scrolling feature - the data-spy and data-target are part of the built-in Bootstrap scrollspy function -->
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+                     <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+</div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-ex1-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a class="page-scroll" href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/">HOME</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/pages/nosotros">ABOUT US</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/pages/servicios">SERVICES</a>
+                    </li>
+                    <li>
+                 <a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a>        
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/pages/regiones">REGIONS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="/pages/eventos">EVENTS</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contactenos">CONTACT US</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+
+    <!-- Decoracion Section -->
+    <section id="norte" class="norte-section">
+    	<div class="container">
+    		 <h1>North Pacific</h1>
+                    <hr></hr>
+                    <p style="color: white;">The province of Guanacaste is filled with nature, adventure, folklore and many other attractions, with endless options for recreation, there are countless reasons everyone wants to travel to Guanacaste and stay in one of their exclusive resorts.</p>
+  <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("norte.jpg", width: '370') %>
+      <div class="caption">
+        <h4>Dreams<br> Las Mareas</h4>
+       <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("webjpg-43.jpg", width: '370') %>
+      <div class="caption">
+        <h4>Andaz Papagayo</h4>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample2" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+      </div>
+    </div>
+  </div>
+  <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("central.jpg", width: '370') %>
+      <div class="caption">
+        <h4>Four Seasons</h4>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+      </div>
+    </div>
+  </div>
+   <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("central.jpg", width: '370') %>
+      <div class="caption">
+        <h4>The Westin Golf</h4>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+      </div>
+    </div>
+  </div>
+   <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("central.jpg", width: '370') %>
+      <div class="caption">
+        <h4>JW Marriot Guanacaste</h4>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+      </div>
+    </div>
+  </div>
+</div>  
+</div> 
+
+    </section>
+ <!-- Dine Around Section -->
+    <section id="central" class="central-section">
+      <div class="container">
+    		 <h7>Central Pacific</h7>
+                    <hr></hr>
+                    <p>The province of Guanacaste is filled with nature, adventure, folklore and many other attractions, with endless options for recreation, there are countless reasons everyone wants to travel to Guanacaste and stay in one of their exclusive resorts.</p>
+   <div class="col-xs-12 col-md-2">
+  </div>
+  <div class="col-xs-12 col-md-2">
+  </div>
+  <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("central.jpg", width: '370') %>
+      <div class="caption">
+        <h4>Los Sueños Marriot</h4>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+      </div>
+    </div>
+  </div>
+   <div class="col-xs-12 col-md-2">
+  </div>
+   <div class="col-xs-12 col-md-2">
+  </div>
+    <div class="col-xs-12 col-md-2">
+  </div>
+  </div>
+ 
+</div>  
+    </section>
+     <!-- Entertainment Section -->
+    <section id="valle" class="valle-section">
+      <div class="container">
+    		 <h1>Central Valley</h1>
+                    <hr></hr>
+                    <p style="color: white;">The province of Guanacaste is filled with nature, adventure, folklore and many other attractions, with endless options for recreation, there are countless reasons everyone wants to travel to Guanacaste and stay in one of their exclusive resorts.</p>
+  <div class="col-xs-12 col-md-2">
+  </div>
+  <div class="col-xs-12 col-md-2">
+  </div>
+  <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("central.jpg", width: '370') %>
+      <div class="caption">
+        <h4>Costa Rica Marriot</h4>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+      </div>
+    </div>
+  </div>
+   <div class="col-xs-12 col-md-2">
+    <div class="thumbnail">
+      <%= image_tag("central.jpg", width: '370') %>
+      <div class="caption">
+        <h4 style="font-size: 22px;">Real<br> Intercontinental</h4>
+        <a class="btn btn-danger" data-toggle="collapse" href="#collapseExample3" aria-expanded="false" aria-controls="collapseExample">
+  Link with href
+</a>
+      </div>
+    </div>
+  </div>
+   <div class="col-xs-12 col-md-2">
+  </div>
+    <div class="col-xs-12 col-md-2">
+  </div>
+</div>   
+    </section>
+     <!-- Contactenos Section -->
+    <section id="contactenos" class="contactenos-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h3>Contact Us</h3>
+                    <%= image_tag("hr_line.png", class: "line") %><br>
+                    <h8>Please tell us how can we help you.</h8>
+                </div>
+                <div class="row">
+  <div class="col-md-4" style="padding-top: 20px;">
+<%= image_tag("pin.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">Boulevard Rohrmosser, <br>
+Pavas, San José, <br>
+Costa Rica</p>
+
+<%= image_tag("mail.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">contactus@globaleventsdmc.com</p>
+<%= image_tag("phone.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">Phone: + (506) 2291-8173</p>
+  </div>
+  <div class="col-md-8">
+    <form class="form-inline">
+  <div class="form-group">
+    <label for="name">Name</label>
+    <input type="text" class="form-control" id="name" placeholder="Insert your name">
+  </div>
+  <div class="form-group">
+    <label for="lastName">Last Name</label>
+    <input type="text" class="form-control" id="lastName" placeholder="Insert your last name">
+  </div>
+  <div class="form-group">
+    <label for="company">Company</label>
+    <input type="text" class="form-control" id="company" placeholder="Company Name">
+  </div>
+  <div class="form-group">
+    <label for="jobtitle">Job Title</label>
+    <input type="text" class="form-control" id="position" placeholder="Company title">
+  </div>
+  <div class="form-group">
+    <label for="phone">Phone</label>
+    <input type="text" class="form-control" id="position" placeholder="Phone number">
+  </div>
+   <div class="form-group">
+    <label for="email">E-mail</label>
+    <input type="text" class="form-control" id="name" placeholder="E-mail adress">
+  </div>
+</form>
+<form>
+ 
+  <div class="form-group">
+    <label for="title">Title</label>
+    <input type="text" class="form-control" id="name" placeholder="Message title">
+  </div>
+   <div class="form-group">
+    <label for="message">Message</label>
+    <textarea class="form-control" rows="3"></textarea>
+  </div>
+  <button type="submit" class="btn btn-default">Submit</button>
+</form></div>
+</div>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="overlay" onClick="style.pointerEvents='none'"></div>
+<iframe
+  width="100%"
+  height="450"
+  frameborder="0" style="border:0"
+  src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBASvPxI7KyxyLBM9xQqCdviLlYr9Ep-_g
+    &q=9.953818, -84.125569">
+</iframe>
+
+</section>
+<section class="footer-section">
+<a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a></section>
+
+
+
+    <!-- Scrolling Nav JavaScript -->
+    <script src="javascripts/application.js"></script>
+<script>
+$(document).ready(function(){
+$('.carousel').carousel({
+interval: 10000
+ });
+});
+</script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//blueimp.github.io/Gallery/js/jquery.blueimp-gallery.min.js"></script>
+<script src="javascripts/bootstrap-image-gallery.min.js"></script>
+</body>
+
+</html>
