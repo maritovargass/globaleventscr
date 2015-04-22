@@ -111,7 +111,7 @@ of those sections to manage the look and feel of the site. */
     height: 100%;
     padding-top: 100px;
     text-align: center;
-    background: #eee;
+    background: #d14b3a;
 }
 .valle-section {
     height: 100%;
@@ -119,4 +119,64 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #d14b3a;
 }
+.lasmareas-section {
+    height: 100%;
+    padding-top: 100px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
 
+.andaz-section {
+    height: 120%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
+.seasons-section {
+    height: 120%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
+
+.westin-section {
+    height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
+
+.jw-section {
+    height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
+
+.lossuenos-section {
+    height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
+.marriott-section {
+    height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
+
+.inter-section {
+    height: 110%;
+    padding-top: 50px;
+    text-align: center;
+    background: #eee;
+    border-bottom: 2px solid #d14b3a;
+}
