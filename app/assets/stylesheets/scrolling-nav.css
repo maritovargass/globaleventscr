@@ -54,6 +54,8 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
     background: #d14b3a;
 }
+
+
 .servicios2-section {
     height: 100%;
     padding-top: 50px;
@@ -88,15 +90,15 @@ of those sections to manage the look and feel of the site. */
 }
 
 .decoration-section {
-    height: 100%;
+    height: 120%;
     padding-top: 100px;
     text-align: center;
     background: #eee;
 }
 
 .dine-section {
-    height: 100%;
-    padding-top: 100px;
+    height: 135%;
+    padding-top: 50px;
     text-align: center;
     background: #d14b3a;
 }

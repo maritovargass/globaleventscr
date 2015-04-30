@@ -15,7 +15,9 @@
     <link href="stylesheet/application.css" rel="stylesheet">
 <link rel="stylesheet" href="//blueimp.github.io/Gallery/css/blueimp-gallery.min.css">
 <link rel="stylesheet" href="css/bootstrap-image-gallery.min.css">
-
+<script type="text/javascript">
+  Shadowbox.init();
+</script>
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -81,452 +83,168 @@
     <section id="servicios" class="decoration-section">
        <h7>Décor</h7>
                     <hr></hr>
-       <div class="row" style="margin-top: 100px;">
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event1.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event2.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                   <%= image_tag("event3.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event4.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                   <%= image_tag("event5.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event6.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event7.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event8.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event9.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event10.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event11.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event12.jpg", width: '200') %>
-                </a>
-            </div>
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-1.jpg", width: '200'), asset_path('image-1.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-2.jpg", width: '200'), asset_path('image-2.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-3.jpg", width: '200'), asset_path('image-3.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-4.jpg", width: '200'), asset_path('image-4.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-5.jpg", width: '200'), asset_path('image-5.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-6.jpg", width: '200'), asset_path('image-6.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-7.jpg", width: '200'), asset_path('image-7.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-8.jpg", width: '200'), asset_path('image-8.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-9.jpg", width: '200'), asset_path('image-9.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-10.jpg", width: '200'), asset_path('image-10.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-11.jpg", width: '200'), asset_path('image-11.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-12.jpg", width: '200'), asset_path('image-12.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-13.jpg", width: '200'), asset_path('image-13.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-14.jpg", width: '200'), asset_path('image-14.jpg'), rel: 'shadowbox[Decor]' %></li>
+     </ul>
 </div>
-</div>
+
     </section>
  <!-- Dine Around Section -->
     <section id="servicios" class="dine-section">
        <h1>Dine Around</h1>
                     <hr></hr>
-       <div class="row" style="margin-top: 100px;">
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event1.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event2.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                   <%= image_tag("event3.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event4.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                   <%= image_tag("event5.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event6.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event7.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event8.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event9.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event10.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event11.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event12.jpg", width: '200') %>
-                </a>
-            </div>
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-14.jpg", width: '200'), asset_path('image-14.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-15.jpg", width: '200'), asset_path('image-15.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-16.jpg", width: '200'), asset_path('image-16.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-17.jpg", width: '200'), asset_path('image-17.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-18.jpg", width: '200'), asset_path('image-18.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-19.jpg", width: '200'), asset_path('image-19.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-20.jpg", width: '200'), asset_path('image-20.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-21.jpg", width: '200'), asset_path('image-21.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-22.jpg", width: '200'), asset_path('image-22.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-23.jpg", width: '200'), asset_path('image-23.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-24.jpg", width: '200'), asset_path('image-24.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-25.jpg", width: '200'), asset_path('image-25.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-26.jpg", width: '200'), asset_path('image-26.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-27.jpg", width: '200'), asset_path('image-27.jpg'), rel: 'shadowbox[Decor]' %></li>
+           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-28.jpg", width: '200'), asset_path('image-28.jpg'), rel: 'shadowbox[Decor]' %></li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-29.jpg", width: '200'), asset_path('image-29.jpg'), rel: 'shadowbox[Decor]' %></li>
+             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-30.jpg", width: '200'), asset_path('image-30.jpg'), rel: 'shadowbox[Decor]' %></li>
+              <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-31.jpg", width: '200'), asset_path('image-31.jpg'), rel: 'shadowbox[Decor]' %></li>
+               <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-32.jpg", width: '200'), asset_path('image-32.jpg'), rel: 'shadowbox[Decor]' %></li>
+
+     </ul>
 </div>
     </section>
      <!-- Entertainment Section -->
     <section id="servicios" class="decoration-section">
        <h7>Entertainment</h7>
                     <hr></hr>
-       <div class="row" style="margin-top: 100px;">
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event1.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event2.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                   <%= image_tag("event3.jpg", width: '200') %>
-                </a>
-            </div>
-            <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event4.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                   <%= image_tag("event5.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event6.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event7.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event8.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event9.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event10.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event11.jpg", width: '200') %>
-                </a>
-            </div>
-             <div class="col-md-2 portfolio-item">
-                <a>
-                    <%= image_tag("event12.jpg", width: '200') %>
-                </a>
-            </div>
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-33.jpg", width: '200'), asset_path('image-33.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-34.jpg", width: '200'), asset_path('image-34.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-35.jpg", width: '200'), asset_path('image-35.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-36.jpg", width: '200'), asset_path('image-36.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-37.jpg", width: '200'), asset_path('image-37.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-38.jpg", width: '200'), asset_path('image-38.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-39.jpg", width: '200'), asset_path('image-39.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-40.jpg", width: '200'), asset_path('image-40.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-41.jpg", width: '200'), asset_path('image-41.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-42.jpg", width: '200'), asset_path('image-42.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-43.jpg", width: '200'), asset_path('image-43.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-44.jpg", width: '200'), asset_path('image-44.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-45.jpg", width: '200'), asset_path('image-45.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-46.jpg", width: '200'), asset_path('image-46.jpg'), rel: 'shadowbox[Decor]' %></li>
+     </ul>
 </div>
     </section>
  <!-- Giveaways Section -->
     <section id="servicios" class="dine-section">
        <h1>Giveaways</h1>
                     <hr></hr>
-       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="links">
-    <a href="images/banana.jpg" title="Banana" data-gallery>
-        <img src="images/thumbnails/banana.jpg" alt="Banana">
-    </a>
-    <a href="images/apple.jpg" title="Apple" data-gallery>
-        <img src="images/thumbnails/apple.jpg" alt="Apple">
-    </a>
-    <a href="images/orange.jpg" title="Orange" data-gallery>
-        <img src="images/thumbnails/orange.jpg" alt="Orange">
-    </a>
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-47.jpg", width: '200'), asset_path('image-47.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-48.jpg", width: '200'), asset_path('image-48.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-49.jpg", width: '200'), asset_path('image-49.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-50.jpg", width: '200'), asset_path('image-50.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-51.jpg", width: '200'), asset_path('image-51.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-52.jpg", width: '200'), asset_path('image-52.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-53.jpg", width: '200'), asset_path('image-53.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-54.jpg", width: '200'), asset_path('image-54.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-55.jpg", width: '200'), asset_path('image-55.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-56.jpg", width: '200'), asset_path('image-56.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-57.jpg", width: '200'), asset_path('image-57.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-58.jpg", width: '200'), asset_path('image-58.jpg'), rel: 'shadowbox[Decor]' %></li>
+     </ul>
 </div>
     </section>
      <!-- Meet and Greet Section -->
     <section id="servicios" class="decoration-section">
        <h7>Meet and Greet</h7>
                     <hr></hr>
-       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="links">
-    <a href="images/banana.jpg" title="Banana" data-gallery>
-        <img src="images/thumbnails/banana.jpg" alt="Banana">
-    </a>
-    <a href="images/apple.jpg" title="Apple" data-gallery>
-        <img src="images/thumbnails/apple.jpg" alt="Apple">
-    </a>
-    <a href="images/orange.jpg" title="Orange" data-gallery>
-        <img src="images/thumbnails/orange.jpg" alt="Orange">
-    </a>
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-59.jpg", width: '200'), asset_path('image-59.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-60.jpg", width: '200'), asset_path('image-60.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-61.jpg", width: '200'), asset_path('image-61.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-62.jpg", width: '200'), asset_path('image-62.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-63.jpg", width: '200'), asset_path('image-63.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-64.jpg", width: '200'), asset_path('image-64.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-65.jpg", width: '200'), asset_path('image-65.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-66.jpg", width: '200'), asset_path('image-66.jpg'), rel: 'shadowbox[Decor]' %></li>
+     </ul>
 </div>
     </section>
  <!-- Outreach Section -->
     <section id="servicios" class="dine-section">
        <h1>Outreach</h1>
                     <hr></hr>
-       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="links">
-    <a href="images/banana.jpg" title="Banana" data-gallery>
-        <img src="images/thumbnails/banana.jpg" alt="Banana">
-    </a>
-    <a href="images/apple.jpg" title="Apple" data-gallery>
-        <img src="images/thumbnails/apple.jpg" alt="Apple">
-    </a>
-    <a href="images/orange.jpg" title="Orange" data-gallery>
-        <img src="images/thumbnails/orange.jpg" alt="Orange">
-    </a>
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-67.jpg", width: '200'), asset_path('image-67.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-68.jpg", width: '200'), asset_path('image-68.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-69.jpg", width: '200'), asset_path('image-69.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-70.jpg", width: '200'), asset_path('image-70.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-71.jpg", width: '200'), asset_path('image-71.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-72.jpg", width: '200'), asset_path('image-72.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-73.jpg", width: '200'), asset_path('image-73.jpg'), rel: 'shadowbox[Decor]' %></li>
+     </ul>
 </div>
     </section>
      <!-- Team Building Section -->
     <section id="servicios" class="decoration-section">
        <h7>Team Building</h7>
                     <hr></hr>
-       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="links">
-    <a href="images/banana.jpg" title="Banana" data-gallery>
-        <img src="images/thumbnails/banana.jpg" alt="Banana">
-    </a>
-    <a href="images/apple.jpg" title="Apple" data-gallery>
-        <img src="images/thumbnails/apple.jpg" alt="Apple">
-    </a>
-    <a href="images/orange.jpg" title="Orange" data-gallery>
-        <img src="images/thumbnails/orange.jpg" alt="Orange">
-    </a>
+       <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-74.jpg", width: '200'), asset_path('image-74.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-75.jpg", width: '200'), asset_path('image-75.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-76.jpg", width: '200'), asset_path('image-76.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-77.jpg", width: '200'), asset_path('image-77.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-78.jpg", width: '200'), asset_path('image-78.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-79.jpg", width: '200'), asset_path('image-79.jpg'), rel: 'shadowbox[Decor]' %></li>
+     </ul>
 </div>
     </section>
      <!-- Tours Section -->
     <section id="servicios" class="dine-section">
        <h1>Tours</h1>
                     <hr></hr>
-       <!-- The Bootstrap Image Gallery lightbox, should be a child element of the document body -->
-<div id="blueimp-gallery" class="blueimp-gallery">
-    <!-- The container for the modal slides -->
-    <div class="slides"></div>
-    <!-- Controls for the borderless lightbox -->
-    <h3 class="title"></h3>
-    <a class="prev">‹</a>
-    <a class="next">›</a>
-    <a class="close">×</a>
-    <a class="play-pause"></a>
-    <ol class="indicator"></ol>
-    <!-- The modal dialog, which will be used to wrap the lightbox content -->
-    <div class="modal fade">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" aria-hidden="true">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body next"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default pull-left prev">
-                        <i class="glyphicon glyphicon-chevron-left"></i>
-                        Previous
-                    </button>
-                    <button type="button" class="btn btn-primary next">
-                        Next
-                        <i class="glyphicon glyphicon-chevron-right"></i>
-                    </button>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="links">
-    <a href="images/banana.jpg" title="Banana" data-gallery>
-        <img src="images/thumbnails/banana.jpg" alt="Banana">
-    </a>
-    <a href="images/apple.jpg" title="Apple" data-gallery>
-        <img src="images/thumbnails/apple.jpg" alt="Apple">
-    </a>
-    <a href="images/orange.jpg" title="Orange" data-gallery>
-        <img src="images/thumbnails/orange.jpg" alt="Orange">
-    </a>
+        <div class="container">
+     <ul class="row">
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-80.jpg", width: '200'), asset_path('image-80.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-81.jpg", width: '200'), asset_path('image-81.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-82.jpg", width: '200'), asset_path('image-82.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-83.jpg", width: '200'), asset_path('image-83.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-84.jpg", width: '200'), asset_path('image-84.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-86.jpg", width: '200'), asset_path('image-86.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-87.jpg", width: '200'), asset_path('image-87.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-89.jpg", width: '200'), asset_path('image-89.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-90.jpg", width: '200'), asset_path('image-90.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-91.jpg", width: '200'), asset_path('image-91.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-92.jpg", width: '200'), asset_path('image-92.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-93.jpg", width: '200'), asset_path('image-93.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-94.jpg", width: '200'), asset_path('image-94.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4"><%= link_to image_tag("thumbnails/image-96.jpg", width: '200'), asset_path('image-96.jpg'), rel: 'shadowbox[Decor]' %></li>
+     </ul>
 </div>
     </section>
      <!-- Contactenos Section -->
