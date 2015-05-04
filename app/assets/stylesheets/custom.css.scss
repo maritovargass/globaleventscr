@@ -184,10 +184,13 @@ hr {
 }
 
 .col-md-2 {
-    padding-left: 10px !important;
+    padding-left: 0px !important;
     padding-right: 0px !important;
-    padding-bottom: 10px !important;
-    border: 0px solid #eee;
+    padding-bottom: 0px !important;
+    border: 1px solid #eee;
+}
+.col-lg-2 {
+    width: 200px !important;
 }
 
 .overlay {
