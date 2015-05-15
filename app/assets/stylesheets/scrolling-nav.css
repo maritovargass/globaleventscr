@@ -14,7 +14,7 @@ html {
     height: 100%;
 }
 
-@media(min-width:767px) {
+/*@media(min-width:767px) {
     .navbar {
         padding: 0px 0;
         -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
@@ -25,7 +25,7 @@ html {
     .top-nav-collapse {
         padding: 0px;
     }
-}
+}*/
 
 /* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
 The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
@@ -42,15 +42,15 @@ of those sections to manage the look and feel of the site. */
 }
 
 .nosotros-section {
-    height: 70%;
-    padding-top: 60px;
+    height: 80%;
+    padding-top: 100px;
     text-align: left;
     background: #eee;
 }
 
 .servicios-section {
-    height: 95%;
-    padding-top: 75px;
+    height: 110%;
+    padding-top: 100px;
     text-align: center;
     background: #d14b3a;
 }
@@ -64,14 +64,14 @@ of those sections to manage the look and feel of the site. */
 }
 
 .regiones-section {
-    height: 170%;
-    padding-top: 75px;
+    height: 200%;
+    padding-top: 100px;
     text-align: center;
     background: #fff;
 }
 .eventos-section {
-    height: 100%;
-    padding-top: 75px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #d14b3a;
 }
@@ -90,7 +90,7 @@ of those sections to manage the look and feel of the site. */
 }
 
 .decoration-section {
-    height: 120%;
+    height: 140%;
     padding-top: 100px;
     text-align: center;
     background: #eee;
@@ -130,54 +130,54 @@ of those sections to manage the look and feel of the site. */
 }
 
 .andaz-section {
-    height: 120%;
-    padding-top: 50px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
     border-bottom: 2px solid #d14b3a;
 }
 .seasons-section {
-    height: 120%;
-    padding-top: 50px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
     border-bottom: 2px solid #d14b3a;
 }
 
 .westin-section {
-    height: 110%;
-    padding-top: 50px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
     border-bottom: 2px solid #d14b3a;
 }
 
 .jw-section {
-    height: 110%;
-    padding-top: 50px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
     border-bottom: 2px solid #d14b3a;
 }
 
 .lossuenos-section {
-    height: 110%;
-    padding-top: 50px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
     border-bottom: 2px solid #d14b3a;
 }
 .marriott-section {
-    height: 110%;
-    padding-top: 50px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
     border-bottom: 2px solid #d14b3a;
 }
 
 .inter-section {
-    height: 110%;
-    padding-top: 50px;
+    height: 130%;
+    padding-top: 100px;
     text-align: center;
     background: #eee;
     border-bottom: 2px solid #d14b3a;

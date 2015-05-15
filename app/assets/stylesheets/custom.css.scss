@@ -1,3 +1,15 @@
+.container-non-responsive {
+  /* Margin/padding copied from Bootstrap */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  /* Set width to your desired site width */
+  width: 1170px;
+}
+
+
 ul li {     
           list-style:none;           
       }
@@ -203,7 +215,7 @@ hr {
    z-index: 999;
 }
 
-@media(max-width:0px) {
+/*@media(max-width:0px) {
    .navbar-nav {
      margin-left: 1% !important;
     float: left;
@@ -221,6 +233,6 @@ hr {
     text-align: left;
     padding-bottom: 0% !important;
 }
-}
+}*/
 
     

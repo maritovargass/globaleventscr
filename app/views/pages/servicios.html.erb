@@ -34,7 +34,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-non-responsive">
                      <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -44,7 +44,6 @@
                 </button>
 </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
@@ -72,10 +71,8 @@
                         <a class="page-scroll" href="#contactenos">CONTACT US</a>
                     </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
-        <!-- /.container -->
+        <!-- /.container-non-responsive -->
     </nav>
 
 
@@ -83,15 +80,15 @@
     <section id="decoration" class="decoration-section">
        <h7>Décor</h7>
                     <hr></hr>
-       <div class="container">
+       <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2 box-md-2"><%= link_to image_tag("thumbnails/image-1.jpg", width: '200'), asset_path('image-1.jpg'), rel: 'shadowbox[Decor]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-2.jpg", width: '200'), asset_path('image-2.jpg'), rel: 'shadowbox[Decor]' %></li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-3.jpg", width: '200'), asset_path('image-3.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-3-1.jpg", width: '200'), asset_path('image-3-1.jpg'), rel: 'shadowbox[Decor]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-4.jpg", width: '200'), asset_path('image-4.jpg'), rel: 'shadowbox[Decor]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-5.jpg", width: '200'), asset_path('image-5.jpg'), rel: 'shadowbox[Decor]' %></li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-6.jpg", width: '200'), asset_path('image-6.jpg'), rel: 'shadowbox[Decor]' %></li>
-          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-7.jpg", width: '200'), asset_path('image-7.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-6-1.jpg", width: '200'), asset_path('image-6-1.jpg'), rel: 'shadowbox[Decor]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-7-1.jpg", width: '200'), asset_path('image-7-1.jpg'), rel: 'shadowbox[Decor]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-8.jpg", width: '200'), asset_path('image-8.jpg'), rel: 'shadowbox[Decor]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-9.jpg", width: '200'), asset_path('image-9.jpg'), rel: 'shadowbox[Decor]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-10.jpg", width: '200'), asset_path('image-10.jpg'), rel: 'shadowbox[Decor]' %></li>
@@ -109,7 +106,7 @@
     <section id="dine" class="dine-section">
        <h1>Dine Around</h1>
                     <hr></hr>
-       <div class="container">
+       <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-14.jpg", width: '200'), asset_path('image-14.jpg'), rel: 'shadowbox[Dine]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-15.jpg", width: '200'), asset_path('image-15.jpg'), rel: 'shadowbox[Dine]' %></li>
@@ -140,7 +137,7 @@
     <section id="entertainment" class="decoration-section">
        <h7>Entertainment</h7>
                     <hr></hr>
-       <div class="container">
+       <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-33.jpg", width: '200'), asset_path('image-33.jpg'), rel: 'shadowbox[Entertainment]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-34.jpg", width: '200'), asset_path('image-34.jpg'), rel: 'shadowbox[Entertainment]' %></li>
@@ -156,6 +153,9 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-44.jpg", width: '200'), asset_path('image-44.jpg'), rel: 'shadowbox[Entertainment]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-45.jpg", width: '200'), asset_path('image-45.jpg'), rel: 'shadowbox[Entertainment]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-46.jpg", width: '200'), asset_path('image-46.jpg'), rel: 'shadowbox[Entertainment]' %></li>
+           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-3.jpg", width: '200'), asset_path('image-3.jpg'), rel: 'shadowbox[Entertainment]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-6.jpg", width: '200'), asset_path('image-6.jpg'), rel: 'shadowbox[Entertainment]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-7.jpg", width: '200'), asset_path('image-7.jpg'), rel: 'shadowbox[Entertainment]' %></li>
      </ul>
      <a href="#giveaways" class="btn btn-danger" role="button">View More</a>
 </div>
@@ -164,7 +164,7 @@
     <section id="giveaways" class="dine-section">
        <h1>Giveaways</h1>
                     <hr></hr>
-       <div class="container">
+       <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-47.jpg", width: '200'), asset_path('image-47.jpg'), rel: 'shadowbox[Giveaways]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-48.jpg", width: '200'), asset_path('image-48.jpg'), rel: 'shadowbox[Giveaways]' %></li>
@@ -186,7 +186,7 @@
     <section id="meet" class="decoration-section">
        <h7>Meet and Greet</h7>
                     <hr></hr>
-       <div class="container">
+       <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-59.jpg", width: '200'), asset_path('image-59.jpg'), rel: 'shadowbox[Meet]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-62.jpg", width: '200'), asset_path('image-62.jpg'), rel: 'shadowbox[Meet]' %></li>
@@ -204,7 +204,7 @@
     <section id="community" class="dine-section">
        <h1>Community Outreach Programs</h1>
                     <hr></hr>
-       <div class="container">
+       <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-67.jpg", width: '200'), asset_path('image-67.jpg'), rel: 'shadowbox[Outreach]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-68.jpg", width: '200'), asset_path('image-68.jpg'), rel: 'shadowbox[Outreach]' %></li>
@@ -213,6 +213,9 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-71.jpg", width: '200'), asset_path('image-71.jpg'), rel: 'shadowbox[Outreach]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-72.jpg", width: '200'), asset_path('image-72.jpg'), rel: 'shadowbox[Outreach]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-73.jpg", width: '200'), asset_path('image-73.jpg'), rel: 'shadowbox[Outreach]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-107.jpg", width: '200'), asset_path('image-107.jpg'), rel: 'shadowbox[Outreach]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-108.jpg", width: '200'), asset_path('image-108.jpg'), rel: 'shadowbox[Outreach]' %></li>
+          <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-109.jpg", width: '200'), asset_path('image-109.jpg'), rel: 'shadowbox[Outreach]' %></li>
      </ul>
      <a href="#team" class="btn btn-default" role="button">View More</a>
 </div>
@@ -221,7 +224,7 @@
     <section id="team" class="decoration-section">
        <h7>Team Building</h7>
                     <hr></hr>
-       <div class="container">
+       <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-74.jpg", width: '200'), asset_path('image-74.jpg'), rel: 'shadowbox[Team]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-75.jpg", width: '200'), asset_path('image-75.jpg'), rel: 'shadowbox[Team]' %></li>
@@ -229,6 +232,10 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-77.jpg", width: '200'), asset_path('image-77.jpg'), rel: 'shadowbox[Team]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-78.jpg", width: '200'), asset_path('image-78.jpg'), rel: 'shadowbox[Team]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-79.jpg", width: '200'), asset_path('image-79.jpg'), rel: 'shadowbox[Team]' %></li>
+           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-110.jpg", width: '200'), asset_path('image-110.jpg'), rel: 'shadowbox[Team]' %></li>
+            <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-111.jpg", width: '200'), asset_path('image-111.jpg'), rel: 'shadowbox[Team]' %></li>
+             <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-112.jpg", width: '200'), asset_path('image-112.jpg'), rel: 'shadowbox[Team]' %></li>
+              <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-113.jpg", width: '200'), asset_path('image-113.jpg'), rel: 'shadowbox[Team]' %></li>
      </ul>
      <a href="#dine" class="btn btn-danger" role="button">View More</a>
 </div>
@@ -237,7 +244,7 @@
     <section id="tours" class="dine-section">
        <h1>Tours</h1>
                     <hr></hr>
-        <div class="container">
+        <div class="container-non-responsive">
      <ul class="row">
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-80.jpg", width: '200'), asset_path('image-80.jpg'), rel: 'shadowbox[Tours]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-81.jpg", width: '200'), asset_path('image-81.jpg'), rel: 'shadowbox[Tours]' %></li>
@@ -259,54 +266,54 @@
     </section>
      <!-- Contactenos Section -->
     <section id="contactenos" class="contactenos-section">
-        <div class="container">
+        <div class="container-non-responsive">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <h3>Contact Us</h3>
                     <%= image_tag("hr_line.png", class: "line") %><br>
                     <h8>Please tell us how can we help you.</h8>
                 </div>
                 <div class="row">
-  <div class="col-md-4" style="padding-top: 20px;">
-<%= image_tag("pin.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">Boulevard Rohrmosser, <br>
+  <div class="col-xs-4" style="padding-top: 20px;">
+<%= image_tag("pin.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">Boulevard Rohrmosser, <br>
 Pavas, San José, <br>
 Costa Rica</p>
 
-<%= image_tag("mail.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">contactus@globaleventsdmc.com</p>
-<%= image_tag("phone.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">Phone: + (506) 2291-8173</p>
+<%= image_tag("mail.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">contactus@globaleventsdmc.com</p>
+<%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">Phone: + (506) 2291-8173</p>
   </div>
-  <div class="col-md-8">
+  <div class="col-xs-8">
     <form class="form-inline">
   <div class="form-group">
     <label for="name">Name</label>
-    <input type="text" class="form-control" id="name" placeholder="Insert your name">
+    <input type="text" class="form-control" id="name" >
   </div>
   <div class="form-group">
     <label for="lastName">Last Name</label>
-    <input type="text" class="form-control" id="lastName" placeholder="Insert your last name">
+    <input type="text" class="form-control" id="lastName" >
   </div>
   <div class="form-group">
     <label for="company">Company</label>
-    <input type="text" class="form-control" id="company" placeholder="Company Name">
+    <input type="text" class="form-control" id="company" >
   </div>
   <div class="form-group">
     <label for="jobtitle">Job Title</label>
-    <input type="text" class="form-control" id="position" placeholder="Company title">
+    <input type="text" class="form-control" id="position" >
   </div>
   <div class="form-group">
     <label for="phone">Phone</label>
-    <input type="text" class="form-control" id="position" placeholder="Phone number">
+    <input type="text" class="form-control" id="position" >
   </div>
    <div class="form-group">
     <label for="email">E-mail</label>
-    <input type="text" class="form-control" id="name" placeholder="E-mail adress">
+    <input type="text" class="form-control" id="name" >
   </div>
 </form>
 <form>
  
   <div class="form-group">
     <label for="title">Title</label>
-    <input type="text" class="form-control" id="name" placeholder="Message title">
+    <input type="text" class="form-control" id="name" >
   </div>
    <div class="form-group">
     <label for="message">Message</label>
@@ -330,9 +337,13 @@ Costa Rica</p>
 
 </section>
 <section class="footer-section">
-<a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a></section>
-
-
+  
+<div><a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a><div>
+  <div style="margin-left: 1000px;">
+<a style="margin-right: 20px;"><%= link_to image_tag("in.svg", :alt => "Brand", :width => 30), "https://www.linkedin.com" %></a>
+<a style="margin-left: 20px;"><%= link_to image_tag("fb.svg", :alt => "Brand", :width => 30), "https://www.facebook.com" %></a>
+</div>
+</section>
 
     <!-- Scrolling Nav JavaScript -->
     <script src="javascripts/application.js"></script>

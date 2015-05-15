@@ -5,7 +5,6 @@
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
 
@@ -30,7 +29,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container">
+        <div class="container-non-responsive">
                      <div class="navbar-header page-scroll">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
                     <span class="sr-only">Toggle navigation</span>
@@ -40,7 +39,6 @@
                 </button>
 </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
@@ -68,8 +66,6 @@
                         <a class="page-scroll" href="#contactenos">CONTACT US</a>
                     </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
         </div>
         <!-- /.container -->
     </nav>
@@ -124,12 +120,12 @@
     <section id="nosotros" class="nosotros-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <h3>About Us</h3>
                     <%= image_tag("hr_line.png", class: "line") %>
                 </div>
                 <div class="row">
-  <div class="col-sm-6 col-md-3">
+  <div class="col-xs-3">
     <div>
       <div class="caption">
         <h4>This is why<br>
@@ -140,19 +136,19 @@ leads the market</h4><br><br>
     </div>
   </div>
   <div >
-   <p style="font-size: 15px">With more than 25 years of experience in the travel Industry, Global Events DMC stands out with personalized and creative ideas to match our clients’ most diverse needs and wishes. Our qualified team makes us the ideal partner when it comes to efficient and cost-effective planning. Global Events DMC is committed to the most demanding industry standards of best business practice. Our experience and innovative approach enable us to be leaders in incentive travel, conventions, meetings and events. Our programs are tailor-made to fit large and small groups considering our extensive  knowledge, experience, best services and resources in Costa Rica. <br><br>Global Events operation covers Costa Rica and Panama, further enhancing our regional knowhow and competitive edge.
+   <p style="font-size: 15px; text-align: justify">With more than 25 years of experience in the travel Industry, Global Events DMC stands out with personalized and creative ideas to match our clients’ most diverse needs and wishes. Our qualified team makes us the ideal partner when it comes to efficient and cost-effective planning. Global Events DMC is committed to the most demanding industry standards of best business practice. Our experience and innovative approach enable us to be leaders in incentive travel, conventions, meetings and events. Our programs are tailor-made to fit large and small groups considering our extensive  knowledge, experience, best services and resources in Costa Rica. <br><br>Global Events operation covers Costa Rica and Panama, further enhancing our regional knowhow and competitive edge.
 </p> 
 </div>
             </div>
         </div>
-        <p style="text-align: center; margin-left: 10%; margin-top: 30px;"><%= image_tag("mail.svg", width: '20px') %> contactus@globaleventsdmc.com<%= image_tag("phone.svg", width: '20px') %>Phone: + (506) 2291-8173</p>
+        <p style="text-align: right; margin-top: 30px; font-size: 16px;"><%= image_tag("mail.svg", width: '20px') %> <b>contactus@globaleventsdmc.com <b><%= image_tag("phone.svg", width: '20px') %><b>Phone: + (506) 2291-8173<b></p>
     </section>
 
     <!-- Servicios Section -->
     <section id="servicios" class="servicios-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <h1>Testimonials</h1>
                     <hr></hr>
                     <h5>Our thinking is unique, and we take care to transmit this into our events.</h5><br><br>
@@ -175,46 +171,46 @@ leads the market</h4><br><br>
             </div>
 
         </div>
-        <p style="text-align: center; margin-left: 10%; margin-top: 100px;"><%= image_tag("mail.svg", width: '20px') %> contactus@globaleventsdmc.com<%= image_tag("phone.svg", width: '20px') %>Phone: + (506) 2291-8173</p>
+        <p style="text-align: right; margin-top: 30px; font-size: 16px;"><%= image_tag("mail.svg", width: '20px') %> <b>contactus@globaleventsdmc.com <b><%= image_tag("phone.svg", width: '20px') %><b>Phone: + (506) 2291-8173<b></p>
     </section>
     <!-- Regiones Section -->
     <section id="regiones" class="regiones-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                    <h7>Regions of Costa Rica</h7><br>
                     <%= image_tag("hr_line.png", class: "line") %><br>
-                    <h8>Costa Rica is the ideal antidote to release the stress, balancing laid-back hospitality with first-class amenities. We welcome visitors with genuine warmth and recognized courtesy. Superlative hotels and resorts, two international airports servicing more than 60 flights from North America and Europe, first-world retail and sporting facilities against a backdrop of breathtaking and hugely diverse natural beauty make us today’s destination of choice. Imagine a country without armed forces, an enviable track record in health care and education, solid democracy and a quarter of its land mass protected as nature reserves or national parks. This is Costa Rica. Treat yourself.</h8>
+                    <h8 style="text-align: justify;">Costa Rica is the ideal antidote to release the stress, balancing laid-back hospitality with first-class amenities. We welcome visitors with genuine warmth and recognized courtesy. Superlative hotels and resorts, two international airports servicing more than 60 flights from North America and Europe, first-world retail and sporting facilities against a backdrop of breathtaking and hugely diverse natural beauty make us today’s destination of choice. Imagine a country without armed forces, an enviable track record in health care and education, solid democracy and a quarter of its land mass protected as nature reserves or national parks. This is Costa Rica. Treat yourself.</h8>
                 </div>
                 <div class="row">
-  <div class="col-sm-6 col-md-4">
+  <div class="col-xs-4">
     <div class="thumbnail">
       <%= image_tag("norte.jpg", width: '370') %>
       <div class="caption">
         <h3>North Pacific</h3>
-        <p style="text-align: left;">The province of Guanacaste is filled with nature, adventure, folklore and many other attractions, with endless options for recreation, there are countless reasons everyone wants to travel to Guanacaste and stay in one of their exclusive resorts.
+        <p style="text-align: justify;">The province of Guanacaste is filled with nature, adventure, folklore and many other attractions, with endless options for recreation, there are countless reasons everyone wants to travel to Guanacaste and stay in one of their exclusive resorts.
 </p>
         <p><a href="pages/regiones#norte" class="btn btn-danger" role="button">Read More</a></p>
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-xs-4">
     <div class="thumbnail">
       <%= image_tag("webjpg-43.jpg", width: '370') %>
       <div class="caption">
         <h3>Central Pacific</h3>
-        <p style="text-align: left;">We could say that is one of the most popular tourist destinations in Costa Rica. The Mid Pacific region of the country is also the most accessible. Only 1 hour and 15 minutes away from San Jose, this area is known for its beautiful beaches, coastal tourist towns, fantastic surfing opportunities, and an unimaginable biodiversity for nature lovers.  Offering visitors the opportunity to enjoy different activities including fishing and canopy tours, the adventure of walking at Carara National or Manuel Antonio National Parks, where wildlife emerges and gives a spectacular show to our guests.
+        <p style="text-align: justify;">We could say that is one of the most popular tourist destinations in Costa Rica. The Mid Pacific region of the country is also the most accessible. Only 1 hour and 15 minutes away from San Jose, this area is known for its beautiful beaches, coastal tourist towns, fantastic surfing opportunities, and an unimaginable biodiversity for nature lovers.  Offering visitors the opportunity to enjoy different activities including fishing and canopy tours, the adventure of walking at Carara National or Manuel Antonio National Parks, where wildlife emerges and gives a spectacular show to our guests.
 </p>
         <p><a href="pages/regiones#central" class="btn btn-danger" role="button">Read More</a></p>
       </div>
     </div>
   </div>
-  <div class="col-sm-6 col-md-4">
+  <div class="col-xs-4">
     <div class="thumbnail">
       <%= image_tag("central.jpg", width: '370') %>
       <div class="caption">
         <h3>Central Valley</h3>
-        <p style="text-align: left;">The Central Valley (Spanish: Valle Central) is a plateau and a geographic region of central Costa Rica. The land in the valley is a relative plain, despite being surrounded by several mountains and volcanos.With endless options for recreation, there are countless reasons everyone wants to travel to San Jose and stay in one of their exclusive hotels.
+        <p style="text-align: justify;">The Central Valley (Spanish: Valle Central) is a plateau and a geographic region of central Costa Rica. The land in the valley is a relative plain, despite being surrounded by several mountains and volcanos.With endless options for recreation, there are countless reasons everyone wants to travel to San Jose and stay in one of their exclusive hotels.
 </p>
         <p><a href="pages/regiones#valle" class="btn btn-danger" role="button">Read More</a></p>
       </div>
@@ -222,18 +218,19 @@ leads the market</h4><br><br>
   </div>
 </div>
             </div>
+             <p style="text-align: right; margin-top: 30px; font-size: 16px;"><%= image_tag("mail.svg", width: '20px') %> <b>contactus@globaleventsdmc.com <b><%= image_tag("phone.svg", width: '20px') %><b>Phone: + (506) 2291-8173<b></p>
         </div>
-        <p style="text-align: center; margin-left: 10%; margin-top: 20px;"><%= image_tag("mail.svg", width: '20px') %> contactus@globaleventsdmc.com<%= image_tag("phone.svg", width: '20px') %>Phone: + (506) 2291-8173</p>
+        
     </section>
      <!-- Eventos Section -->
     <section id="eventos" class="eventos-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                    <h1>OUR SERVICES</h1>
                 </div>
                 <div class="row">
-  <div class="col-sm-6 col-md-3">
+  <div class="col-xs-3">
     <div>
       <div class="caption">
          <h3>We commit to our clients.</h3>
@@ -241,91 +238,92 @@ leads the market</h4><br><br>
 
                     <h5 style="text-align: left; align: justify;">Close partnership with the best suppliers guarantee a fast response to your needs. Flexibility, security, creativity, personalized service, innovation and a competitive price for your program activities.<br><br>
 <strong>We offer:</strong><br>
--Corporate Planning<br>
+Corporate Planning<br>
 
--Meetings and Conventions<br>
+Meetings and Conventions<br>
 
--Airport Transfer / Meet and Greet.<br>
+Airport Transfer / Meet and Greet.<br>
 
--Tours and Attractions<br>
+Tours and Attractions<br>
 
--Giveaways<br>
+Giveaways<br>
 
--Theme Parties<br>
+Theme Parties<br>
 
--Team Building<br>
+Team Building<br>
 
--Dine Arounds<br>
+Dine Arounds<br>
 
--Community Outreach Programs<br>
+Community Outreach Programs<br>
 
 And more.</h5>
-        <a href="pages/servicios" class="btn btn-default" role="button">View Gallery</a>
+       
       </div>
     </div>
   </div>
   <div >
     <div class="row" style="margin-top: 100px;">
-            <div class="col-md-2 portfolio-item">
+            <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event1.jpg", width: '200') %>
                 </a>
             </div>
-            <div class="col-md-2 portfolio-item">
+            <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event2.jpg", width: '200') %>
                 </a>
             </div>
-            <div class="col-md-2 portfolio-item">
+            <div class="col-xs-2 portfolio-item">
                 <a>
                    <%= image_tag("event3.jpg", width: '200') %>
                 </a>
             </div>
-            <div class="col-md-2 portfolio-item">
+            <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event4.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                    <%= image_tag("event5.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event6.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event7.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event8.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event9.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event10.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event11.jpg", width: '200') %>
                 </a>
             </div>
-             <div class="col-md-2 portfolio-item">
+             <div class="col-xs-2 portfolio-item">
                 <a>
                     <%= image_tag("event12.jpg", width: '200') %>
                 </a>
             </div>
+             <a style="margin-top: 20px;" href="pages/servicios" class="btn btn-default" role="button">View Gallery</a>
 </div>
             </div>
         </div> 
@@ -334,60 +332,63 @@ And more.</h5>
 
 
         </div>
+          <p style="text-align: right; margin-top: 30px; font-size: 16px;"><%= image_tag("mail.svg", width: '20px') %> <b>contactus@globaleventsdmc.com <b><%= image_tag("phone.svg", width: '20px') %><b>Phone: + (506) 2291-8173<b></p>
             </div>
+
         </div>
-        <p style="text-align: center; margin-left: 10%; margin-top: 20px;"><%= image_tag("mail.svg", width: '20px') %> contactus@globaleventsdmc.com<%= image_tag("phone.svg", width: '20px') %>Phone: + (506) 2291-8173</p>
+        
     </section>
      <!-- Contactenos Section -->
     <section id="contactenos" class="contactenos-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-12">
+                <div class="col-xs-12">
                     <h3>Contact Us</h3>
                     <%= image_tag("hr_line.png", class: "line") %><br>
                     <h8>Please tell us how can we help you.</h8>
                 </div>
                 <div class="row">
-  <div class="col-md-4" style="padding-top: 20px;">
-<%= image_tag("pin.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">Boulevard Rohrmosser, <br>
+  <div class="col-xs-4" style="padding-top: 20px;">
+<%= image_tag("pin.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">Boulevard Rohrmosser, <br>
 Pavas, San José, <br>
 Costa Rica</p>
 
-<%= image_tag("mail.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">contactus@globaleventsdmc.com</p>
-<%= image_tag("phone.svg", width: '20px', :style => "margin-left:40%;") %><p style="text-align: left; margin-left: 50%;">Phone: + (506) 2291-8173</p>
+<%= image_tag("mail.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">contactus@globaleventsdmc.com</p>
+<%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">Phone: + (506) 2291-8173</p>
+<%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">Phone: + (506) 8341-4957</p>
   </div>
-  <div class="col-md-8">
+  <div class="col-xs-8">
     <form class="form-inline">
   <div class="form-group">
     <label for="name">Name</label>
-    <input type="text" class="form-control" id="name" placeholder="Add your name">
+    <input type="text" class="form-control" id="name">
   </div>
   <div class="form-group">
     <label for="lastName">Last Name</label>
-    <input type="text" class="form-control" id="lastName" placeholder="Add your last name">
+    <input type="text" class="form-control" id="lastName">
   </div>
   <div class="form-group">
     <label for="company">Company</label>
-    <input type="text" class="form-control" id="company" placeholder="Company Name">
+    <input type="text" class="form-control" id="company">
   </div>
   <div class="form-group">
     <label for="jobtitle">Job Title</label>
-    <input type="text" class="form-control" id="position" placeholder="Company title">
+    <input type="text" class="form-control" id="position">
   </div>
   <div class="form-group">
     <label for="phone">Phone</label>
-    <input type="text" class="form-control" id="position" placeholder="Phone number">
+    <input type="text" class="form-control" id="position">
   </div>
    <div class="form-group">
     <label for="email">E-mail</label>
-    <input type="text" class="form-control" id="name" placeholder="E-mail address">
+    <input type="text" class="form-control" id="name">
   </div>
 </form>
 <form>
  
   <div class="form-group">
     <label for="title">Title</label>
-    <input type="text" class="form-control" id="name" placeholder="Message title">
+    <input type="text" class="form-control" id="name" >
   </div>
    <div class="form-group">
     <label for="message">Message</label>
@@ -411,8 +412,13 @@ Costa Rica</p>
 
 </section>
 <section class="footer-section">
-<a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a></section>
-
+  
+<div><a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a><div>
+  <div style="margin-left: 1000px;">
+<a style="margin-right: 20px;"><%= link_to image_tag("in.svg", :alt => "Brand", :width => 30), "https://www.linkedin.com" %></a>
+<a style="margin-left: 20px;"><%= link_to image_tag("fb.svg", :alt => "Brand", :width => 30), "https://www.facebook.com" %></a>
+</div>
+</section>
 
 
     <!-- Scrolling Nav JavaScript -->
