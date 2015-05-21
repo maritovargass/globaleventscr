@@ -4132,7 +4132,7 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   z-index: 1000;
   border-width: 0 0 1px;
 }
-/*@media (min-width: 768px) {
+@media (min-width: 768px) {
   .navbar-static-top {
     border-radius: 0;
   }
@@ -6566,4 +6566,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-*/

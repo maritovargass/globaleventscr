@@ -27,6 +27,7 @@
 
 <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
 
+
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
         <div class="container-non-responsive">
@@ -40,6 +41,11 @@
 </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
                 <ul class="nav navbar-nav">
+                  <a style="margin-right: 10px;"><%= link_to image_tag("in.svg", :alt => "Brand", :width => 30), "https://www.linkedin.com" %></a>
+<a style="margin-left: 10px;"><%= link_to image_tag("fb.svg", :alt => "Brand", :width => 30), "https://www.facebook.com" %></a>
+<a style="margin-left: 10px;"><%= link_to image_tag("Spain.png", :alt => "Brand", :width => 30), "#" %></a>
+<a style="margin-left: 10px;"><%= link_to image_tag("United-States.png", :alt => "Brand", :width => 30), "#" %></a>
+
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
@@ -413,11 +419,9 @@ Costa Rica</p>
 </section>
 <section class="footer-section">
   
-<div><a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a><div>
-  <div style="margin-left: 1000px;">
-<a style="margin-right: 20px;"><%= link_to image_tag("in.svg", :alt => "Brand", :width => 30), "https://www.linkedin.com" %></a>
-<a style="margin-left: 20px;"><%= link_to image_tag("fb.svg", :alt => "Brand", :width => 30), "https://www.facebook.com" %></a>
-</div>
+<div>
+  <a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a><div>
+
 </section>
 
 
