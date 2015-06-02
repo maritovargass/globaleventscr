@@ -1,0 +1,275 @@
+---
+es:
+  home: INICIO
+  about_us: "NOSOTROS"
+  testimonials: "TESTIMONIOS"
+  regions: "REGIONES"
+  services: "SERVICIOS"
+  contact_us: "CONTACTENOS"
+  slide_1: "La aventura está"
+  slide_1_br: "en todas partes"
+  slide_2: "Donde la exuberancia"
+  slide_2_br: "se una a la elegancia."
+  slide_3: "Un placer"
+  slide_3_br: "para sus sentidos"
+  about_us_h3: "Nosotros"
+  about_us_caption1: "Por estas razones"
+  about_us_caption2: "Global Events DMC"
+  about_us_caption3: "lidera el Mercado"
+  read_more: "Ver más"
+  about_us_p1: "Con más de 25 años de experiencia en la industria de viajes, Global Events DMC se destaca con ideas personalizadas y creativas para cumplir con las más diversas necesidades y deseos de nuestros clientes. Un equipo calificado, nos hace el socio ideal cuando se trata de una planificación eficiente y rentable. Global Events DMC se ha comprometido a los estándares mas exigentes de la industria y las mejores prácticas empresariales. Nuestra experiencia y enfoque innovador nos permiten ser líderes en viajes de incentivos, convenciones, reuniones y eventos. Nuestros programas están hechos a medida para adaptarse a grupos grandes y pequeños, considerando nuestro amplio conocimiento, experiencia, mejores servicios y recursos en Costa Rica."
+  about_us_p2: "La operación de Global Events DMC cubre Costa Rica, Panamá y República Dominicana mejorando aún más nuestros conocimientos regionales y ventajas competitivas."
+  servicios_h1: "Testimonios"
+  servicios_h5: "Nuestra manera de pensar es única, y nos preocupamos por transmitir esto en nuestros eventos."
+  servicios_quote1: "Hay personas que hacen su trabajo y lo hacen bien y son eficientes.  Pero hay personas que hacen bien su trabajo y al mismo tiempo inyectan una dosis de profesionalismo, pasión, alegría, servicio al cliente, calidad, etc. Todos estos valores agregados son los que uno recibe de Global Events, particularmente de su lado donde son realmente especiales. Quiero también tomar esta oportunidad para expresar mi agradecimiento y aprecio a Marianella por un gran trabajo realizado. Puede estar seguros que fue un placer para nosotros trabajar con ustedes, ustedes son un verdadero equipo de éxito. Muchas gracias."
+  servicios_cite1: "Priscilla Araya Barquero - BN"
+  servicios_quote2: "Definitivamente queremos sus servicios. Como empresa ustedes me han impresionado desde el principio con su respuesta comprensiva, rápida y profesional."
+  servicios_cite2: "Pat Foley. Organizadora de Eventos"
+  regiones_h7: "Regiones de Costa Rica"
+  regiones_p1: "Costa Rica es el antídoto ideal para liberar el estrés, para encontrar el equilibrio de la hospitalidad en instalaciones de primera clase . Damos la bienvenida a los visitantes con calidez genuina y cortesía reconocida. Hoteles y resorts de alta calidad, dos aeropuertos internacionales atendiendo más de 60 vuelos procedentes de América y Europa, instalaciones comerciales y deportivas de primer mundo en un contexto impresionante y muy diversa belleza natural que nos hacen el destino actual de elección. Imagine un país sin fuerzas armadas, un historial envidiable en el cuidado de la salud y la educación, una democracia sólida y un cuarto de su territorio protegido como reservas naturales o parques nacionales . Esto es Costa Rica. !Disfrute!"
+  norte_h1: "Pacífico Norte"
+  norte_p1: "La provincia de Guanacaste está llena de naturaleza, aventura, folclore y muchas otras atracciones , con un sin fin de opciones para la recreación , hay un sin número de razones por las que todos quieren viajar a Guanacaste y alojarse en uno de sus exclusivos resorts."
+  central_h1: "Pacífico Central"
+  central_p1: "Podríamos decir que es uno de los destinos turísticos más populares en Costa Rica. La región del Pacífico Central del país también es el más accesible. Sólo 1 hora y 15 minutos de San José, esta zona es conocida por sus hermosas playas, pueblos costeros turísticos, fantásticas oportunidades para el surf, y una biodiversidad inimaginable para los amantes de la naturaleza. Ofrece a los visitantes la oportunidad de disfrutar diferentes actividades, como pesca y tirolesa, la aventura de caminar en los Parques Nacionales Carara o Manuel Antonio, donde la fauna emerge y da un gran espectáculo a nuestros invitados."
+  valley_h1: "Valle Central"
+  valley_p1: "El Valle Central es una región del centro de Costa Rica. La tierra en el valle es relativamente plana, a pesar de estar rodeada por varias montañas y volcanes. Con un sinfín de opciones para la recreación, hay un sinnúmero de razones por las que todo el mundo quiere viajar a San José y estar en uno de sus exclusivos hoteles."
+  services_h1: "NUESTROS SERVICIOS"
+  services_p1: "Nos comprometemos con nuestros clientes"
+  services_p2: "Una estrecha relación con nuestros proveedores garantiza una respuesta rápida a sus necesidades. Flexibilidad, seguridad, creatividad, servicio personalizado, innovación  y un precio competitivo para todas las actividades de su programa."
+  services_p3: "Ofrecemos:"
+  services_p4: "Planeación para empresas."
+  services_p5: "Reuniones y Convenciones"
+  services_p6: "Recibimiento en el Aeropuerto"
+  services_p7: "Excursiones y Atracciones"
+  services_p8: "Regalos Especiales"
+  services_p9: "Fiestas Temáticas"
+  services_p10: "Actividades de trabajo en equipo"
+  services_p11: "Cenas Especiales"
+  services_p12: "Programas de ayuda a la comunidad"
+  services_p13: "Y mucho más"
+  gallery_1: "Ver Galería"
+  contact_us_h1: "Contáctenos"
+  contact_us_h2: "Favor decirnos en que podemos ayudarle"
+  phone: "Teléfono"
+  name: "Nombre"
+  last_name: "Apellido"
+  company: "Empresa"
+  title: "Puesto"
+  e_mail: "E-Mail"
+  title: "Título"
+  message: "Mensaje"
+  submit: "Enviar"
+  view_central: "Ver Pacífico Central"
+  view_valley: "Ver Valle Central"
+  view_pacific: "Ver Pacífico Norte"
+  dreams_p1: "Dreams Las Mareas Costa Rica es el más nuevo y vibrante hotel de playa para una escapada de parejas, familias y solteros a disfrutar de todas las inclusiones de un paseo Unlimited-Luxury® en un lugar privilegiado. Situado en una playa de arena dorada y rodeado de verdes montañas y selvas en Playa El Jobo, en la región de Guanacaste de Costa Rica, los huéspedes de todas las edades disfrutan de unas vacaciones llenas de acción que ofrece deportes acuáticos, actividades en la playa, y las piscinas mientras toma el sol o descansa bajo una palapa con techo de paja."
+  andaz_p1: "Ubicado en un lugar insuperable, donde el Golfo de Papagayo se une a las azules aguas de la Bahía Culebra, Andaz Península Papagayo Resort captura el espíritu tradicional de Costa Rica , con su distintiva filosofía -Pura Vida-. El impresionante entorno - un océano relajante con un fondo montañoso - le hará sentir como si perteneciera a este exuberante entorno natural."
+  four_p1: "From exhilarating zip-line tours of the jungle canopy to tranquil days on sandy beaches, Peninsula Papagayo is a premier ecotourism destination. Nestled on a Pacific coast hillside and overlooking golden sand beaches, Four Seasons Resort Costa Rica at Peninsula Papagayo is your premier eco-adventure destination. Enjoy spacious accommodations alongside the beach, restaurants that make magnificent use of local ingredients, a full-service spa, and eco-adventures galore."
+  westin_p1: "The Westin Golf Resort & Spa, Playa Conchal se ubica en la magnífica costa del Pacifico Norte, situado entre frondosos bosques y las brillantes aguas azules del Océano Pacífico. Está situado en la impresionante playa de Playa Conchal, en la parte noreste de la provincia de Guanacaste en Costa Rica. Conocido por magníficas vistas del Océano Pacífico, tiene 4 kilómetros de playa, Playa Conchal debe su nombre a su singular arena blanca. Aquí, el agua del espumoso Pacífico tiene siempre una temperatura agradable para nadar, bucear o practicar surf."
+  jw_p1: "Vive una auténtica experiencia de Costa Rica en el estilo hacienda de lujo JW Marriott Guanacaste Resort & Spa. El complejo se encuentra frente al mar, rodeado de los esplendores de la rica biodiversidad de Costa Rica y al lado de un hermoso campo de golf de 18 hoyos. Este es el único resort de lujo a solo 10 kilómetros del pintoresco pueblo de surf Tamarindo, donde encontrará restaurantes y bares tranquilos, así como tiendas con mucho encanto."
+  suenos_p1: "Descubra Los Sueños Marriott Ocean & Golf Resort, reconocido por la revista Travel & Leisure como uno de los -mejores hoteles del mundo para las familias-. Ubicado entre las cálidas aguas del Océano Pacífico y la selva tropical de 1,100 acres, nuestro complejo de lujo de Costa Rica cuenta con amplias habitaciones y suites con vistas impresionantes."
+  marriot_p1: "Elegido por Condé Nast como uno de los mejores hoteles en Centroamérica, el Costa Rica Marriott Hotel San José ofrece hermosa arquitectura colonial en la hacienda, elegantes habitaciones y servicio excepcional. Esta localizado en una hacienda cafetalera de unos 30 acres. El hotel también ofrece una variedad de aclamados restaurantes que sirven diferentes platos de comida Latino Americana, así como deliciosos cocteles artesanales y bebidas de café.Las personas en busca de aventura disfrutaran de la proximidad al bosque lluvioso y de la tirolesa."
+  inter_p1: "Idealmente ubicado para negocios o placer, junto al centro comercial más prestigioso de la ciudad con 365 tiendas, bares y restaurantes y los complejos empresariales más importantes. Este hotel cuenta con los mejores conceptos de entretenimiento y gastronómicos que incluyen 2 piscinas al aire libre en los jardines, el spa urbano más grande de América Central y 4 restaurantes con conceptos únicos, The Market, Factory Steak & Lobster, Nau Lounge y Alfredo Trattoria Italiana."
+  decor_h1: "Décor"
+  dine_h1: "Cenas Especiales"
+  entertainment_h1: "Entretenimiento"
+  giveaways_h1: "Regalos Especiales"
+  meet_h1: "Recibimiento en el Aeropuerto"
+  community_h1: "Programas de ayuda a la comunidad"
+  team_h1: "Actividades de trabajo en equipo"
+  back_top: "Ir arriba"
+  
+
+
+
+  date:
+    abbr_day_names:
+    - dom
+    - lun
+    - mar
+    - mié
+    - jue
+    - vie
+    - sáb
+    abbr_month_names:
+    - 
+    - ene
+    - feb
+    - mar
+    - abr
+    - may
+    - jun
+    - jul
+    - ago
+    - sep
+    - oct
+    - nov
+    - dic
+    day_names:
+    - domingo
+    - lunes
+    - martes
+    - miércoles
+    - jueves
+    - viernes
+    - sábado
+    formats:
+      default: "%d/%m/%Y"
+      long: "%d de %B de %Y"
+      short: "%d de %b"
+    month_names:
+    - 
+    - enero
+    - febrero
+    - marzo
+    - abril
+    - mayo
+    - junio
+    - julio
+    - agosto
+    - septiembre
+    - octubre
+    - noviembre
+    - diciembre
+    order:
+    - :day
+    - :month
+    - :year
+  datetime:
+    distance_in_words:
+      about_x_hours:
+        one: alrededor de 1 hora
+        other: alrededor de %{count} horas
+      about_x_months:
+        one: alrededor de 1 mes
+        other: alrededor de %{count} meses
+      about_x_years:
+        one: alrededor de 1 año
+        other: alrededor de %{count} años
+      almost_x_years:
+        one: casi 1 año
+        other: casi %{count} años
+      half_a_minute: medio minuto
+      less_than_x_minutes:
+        one: menos de 1 minuto
+        other: menos de %{count} minutos
+      less_than_x_seconds:
+        one: menos de 1 segundo
+        other: menos de %{count} segundos
+      over_x_years:
+        one: más de 1 año
+        other: más de %{count} años
+      x_days:
+        one: 1 día
+        other: "%{count} días"
+      x_minutes:
+        one: 1 minuto
+        other: "%{count} minutos"
+      x_months:
+        one: 1 mes
+        other: "%{count} meses"
+      x_seconds:
+        one: 1 segundo
+        other: "%{count} segundos"
+    prompts:
+      day: Día
+      hour: Hora
+      minute: Minutos
+      month: Mes
+      second: Segundos
+      year: Año
+  errors:
+    format: "%{attribute} %{message}"
+    messages:
+      accepted: debe ser aceptado
+      blank: no puede estar en blanco
+      confirmation: no coincide
+      empty: no puede estar vacío
+      equal_to: debe ser igual a %{count}
+      even: debe ser par
+      exclusion: está reservado
+      greater_than: debe ser mayor que %{count}
+      greater_than_or_equal_to: debe ser mayor que o igual a %{count}
+      inclusion: no está incluido en la lista
+      invalid: no es válido
+      less_than: debe ser menor que %{count}
+      less_than_or_equal_to: debe ser menor que o igual a %{count}
+      not_a_number: no es un número
+      not_an_integer: debe ser un entero
+      odd: debe ser impar
+      record_invalid: 'La validación falló: %{errors}'
+      taken: ya está en uso
+      too_long: es demasiado largo (%{count} caracteres máximo)
+      too_short: es demasiado corto (%{count} caracteres mínimo)
+      wrong_length: no tiene la longitud correcta (%{count} caracteres exactos)
+    template:
+      body: 'Se encontraron problemas con los siguientes campos:'
+      header:
+        one: No se pudo guardar este/a %{model} porque se encontró 1 error
+        other: No se pudo guardar este/a %{model} porque se encontraron %{count} errores
+  helpers:
+    select:
+      prompt: Por favor seleccione
+    submit:
+      create: Crear %{model}
+      submit: Guardar %{model}
+      update: Actualizar %{model}
+  number:
+    currency:
+      format:
+        delimiter: "."
+        format: "%n %u"
+        precision: 2
+        separator: ","
+        significant: false
+        strip_insignificant_zeros: false
+        unit: "€"
+    format:
+      delimiter: "."
+      precision: 3
+      separator: ","
+      significant: false
+      strip_insignificant_zeros: false
+    human:
+      decimal_units:
+        format: "%n %u"
+        units:
+          billion: mil millones
+          million: millón
+          quadrillion: mil billones
+          thousand: mil
+          trillion: billón
+          unit: ''
+      format:
+        delimiter: ''
+        precision: 1
+        significant: true
+        strip_insignificant_zeros: true
+      storage_units:
+        format: "%n %u"
+        units:
+          byte:
+            one: Byte
+            other: Bytes
+          gb: GB
+          kb: KB
+          mb: MB
+          tb: TB
+    percentage:
+      format:
+        delimiter: ''
+    precision:
+      format:
+        delimiter: ''
+  support:
+    array:
+      last_word_connector: " y "
+      two_words_connector: " y "
+      words_connector: ", "
+  time:
+    am: am
+    formats:
+      default: "%A, %d de %B de %Y %H:%M:%S %z"
+      long: "%d de %B de %Y %H:%M"
+      short: "%d de %b %H:%M"
+    pm: pm

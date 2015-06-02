@@ -47,32 +47,32 @@
                 <ul class="nav navbar-nav">
                   <a style="margin-right: 10px;"><%= link_to image_tag("in.svg", :alt => "Brand", :width => 30), "https://www.linkedin.com/company/global-events-dmc", :target => "_blank" %></a>
 <a style="margin-left: 10px;"><%= link_to image_tag("fb.svg", :alt => "Brand", :width => 30), "https://www.facebook.com/pages/Global-Events-DMC/764542110267778", :target => "_blank" %></a>
-<a style="margin-left: 10px;"><%= link_to image_tag("Spain.png", :alt => "Brand", :width => 30), "#" %></a>
-<a style="margin-left: 10px;"><%= link_to image_tag("United-States.png", :alt => "Brand", :width => 30), "#" %></a>
+<a style="margin-left: 10px;"><%= link_to image_tag("Spain.png", :alt => "Brand", :width => 30), root_path(locale: 'es') %></a>
+<a style="margin-left: 10px;"><%= link_to image_tag("United-States.png", :alt => "Brand", :width => 30), root_path(locale: 'en') %></a>
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
+                     <li class="hidden">
                         <a class="page-scroll" href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/">HOME</a>
+                        <%= link_to t('home'), root_path, :class =>"page-scroll" %>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#nosotros">ABOUT US</a>
+                        <%= link_to t('about_us'), root_path(:anchor => "nosotros"), :class =>"page-scroll" %>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#servicios">TESTIMONIALS</a>
+                        <%= link_to t('testimonials'), root_path(:anchor => "servicios"), :class =>"page-scroll" %>
                     </li>
                     <li>
                  <a><%= image_tag("logo.svg", :alt => "Brand", :width => 120) %></a>        
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#regiones">REGIONS</a>
+                        <%= link_to t('services'), root_path(:anchor => "regiones"), :class =>"page-scroll" %>
                     </li>
                     <li>
-                        <a class="page-scroll" href="/#eventos">SERVICES</a>
+                        <%= link_to t('regions'), root_path(:anchor => "eventos"), :class =>"page-scroll" %>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contactenos">CONTACT US</a>
+                        <%= link_to t('contact_us'), root_path(:anchor => "contactenos"), :class =>"page-scroll" %>
                     </li>
                 </ul>
         </div>
@@ -82,7 +82,7 @@
 
     <!-- Decoracion Section -->
     <section id="decoration" class="decoration-section">
-       <h7>Décor</h7>
+       <h7><%= t('decor_h1') %></h7>
                     <hr></hr>
        <div class="container-non-responsive">
      <ul class="row">
@@ -102,13 +102,13 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-14.jpg", width: '200'), asset_path('image-14.jpg'), rel: 'shadowbox[Decor]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-105.jpg", width: '200'), asset_path('image-105.jpg'), rel: 'shadowbox[Decor]' %></li>
      </ul>
-     <a href="#dine" class="btn btn-danger" role="button">View More</a>
+     <a href="#dine" class="btn btn-danger" role="button"><%= t('read_more') %></a>
 </div>
 
     </section>
  <!-- Dine Around Section -->
     <section id="dine" class="dine-section">
-       <h1>Dine Around</h1>
+       <h1><%= t('dine_h1') %></h1>
                     <hr></hr>
        <div class="container-non-responsive">
      <ul class="row">
@@ -134,12 +134,12 @@
                <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-106.jpg", width: '200'), asset_path('image-106.jpg'), rel: 'shadowbox[Dine]' %></li>
 
      </ul>
-     <a href="#entertainment" class="btn btn-default" role="button">View More</a>
+     <a href="#entertainment" class="btn btn-default" role="button"><%= t('read_more') %></a>
 </div>
     </section>
      <!-- Entertainment Section -->
     <section id="entertainment" class="decoration-section">
-       <h7>Entertainment</h7>
+       <h7><%= t('entertainment_h1') %></h7>
                     <hr></hr>
        <div class="container-non-responsive">
      <ul class="row">
@@ -161,12 +161,12 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-6.jpg", width: '200'), asset_path('image-6.jpg'), rel: 'shadowbox[Entertainment]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-7.jpg", width: '200'), asset_path('image-7.jpg'), rel: 'shadowbox[Entertainment]' %></li>
      </ul>
-     <a href="#giveaways" class="btn btn-danger" role="button">View More</a>
+     <a href="#giveaways" class="btn btn-danger" role="button"><%= t('read_more') %></a>
 </div>
     </section>
  <!-- Giveaways Section -->
     <section id="giveaways" class="dine-section">
-       <h1>Giveaways</h1>
+       <h1><%= t('giveaways_h1') %></h1>
                     <hr></hr>
        <div class="container-non-responsive">
      <ul class="row">
@@ -183,12 +183,12 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-57.jpg", width: '200'), asset_path('image-57.jpg'), rel: 'shadowbox[Giveaways]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-58.jpg", width: '200'), asset_path('image-58.jpg'), rel: 'shadowbox[Giveaways]' %></li>
      </ul>
-     <a href="#meet" class="btn btn-default" role="button">View More</a>
+     <a href="#meet" class="btn btn-default" role="button"><%= t('read_more') %></a>
 </div>
     </section>
      <!-- Meet and Greet Section -->
     <section id="meet" class="decoration-section">
-       <h7>Meet and Greet</h7>
+       <h7><%= t('meet_h1') %></h7>
                     <hr></hr>
        <div class="container-non-responsive">
      <ul class="row">
@@ -201,12 +201,12 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-65.jpg", width: '200'), asset_path('image-65.jpg'), rel: 'shadowbox[Meet]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-66.jpg", width: '200'), asset_path('image-66.jpg'), rel: 'shadowbox[Meet]' %></li>
      </ul>
-     <a href="#community" class="btn btn-danger" role="button">View More</a>
+     <a href="#community" class="btn btn-danger" role="button"><%= t('read_more') %></a>
 </div>
     </section>
  <!-- Outreach Section -->
     <section id="community" class="dine-section">
-       <h1>Community Outreach Programs</h1>
+       <h1><%= t('community_h1') %></h1>
                     <hr></hr>
        <div class="container-non-responsive">
      <ul class="row">
@@ -221,12 +221,12 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-108.jpg", width: '200'), asset_path('image-108.jpg'), rel: 'shadowbox[Outreach]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-109.jpg", width: '200'), asset_path('image-109.jpg'), rel: 'shadowbox[Outreach]' %></li>
      </ul>
-     <a href="#team" class="btn btn-default" role="button">View More</a>
+     <a href="#team" class="btn btn-default" role="button"><%= t('read_more') %></a>
 </div>
     </section>
      <!-- Team Building Section -->
     <section id="team" class="decoration-section">
-       <h7>Team Building</h7>
+       <h7><%= t('team_h1') %></h7>
                     <hr></hr>
        <div class="container-non-responsive">
      <ul class="row">
@@ -241,7 +241,7 @@
              <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-112.jpg", width: '200'), asset_path('image-112.jpg'), rel: 'shadowbox[Team]' %></li>
               <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-113.jpg", width: '200'), asset_path('image-113.jpg'), rel: 'shadowbox[Team]' %></li>
      </ul>
-     <a href="#dine" class="btn btn-danger" role="button">View More</a>
+     <a href="#dine" class="btn btn-danger" role="button"><%= t('read_more') %></a>
 </div>
     </section>
      <!-- Tours Section -->
@@ -265,17 +265,17 @@
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-94.jpg", width: '200'), asset_path('image-94.jpg'), rel: 'shadowbox[Tours]' %></li>
           <li class="col-lg-2 col-md-2 col-sm-3 col-xs-4 box-md-2"><%= link_to image_tag("thumbnails/image-96.jpg", width: '200'), asset_path('image-96.jpg'), rel: 'shadowbox[Tours]' %></li>
      </ul>
-     <a href="#" class="btn btn-default" role="button">Back to top</a>
+     <a href="#" class="btn btn-default" role="button"><%= t('back_top') %></a>
 </div>
     </section>
      <!-- Contactenos Section -->
     <section id="contactenos" class="contactenos-section">
-        <div class="container-non-responsive">
+        <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <h3>Contact Us</h3>
+                    <h3><%= t('contact_us_h1') %></h3>
                     <%= image_tag("hr_line.png", class: "line") %><br>
-                    <h8>Please tell us how can we help you.</h8>
+                    <h8><%= t('contact_us_h2') %></h8>
                 </div>
                 <div class="row">
   <div class="col-xs-4" style="padding-top: 20px;">
@@ -284,46 +284,47 @@ Pavas, San José, <br>
 Costa Rica</p>
 
 <%= image_tag("mail.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">contactus@globaleventsdmc.com</p>
-<%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;">Phone: + (506) 2291-8173</p>
+<%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;"><%= t('phone') %>: + (506) 2291-8173</p>
+<%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;"><%= t('phone') %>: + (506) 8341-4957</p>
   </div>
   <div class="col-xs-8">
     <form class="form-inline">
   <div class="form-group">
-    <label for="name">Name</label>
-    <input type="text" class="form-control" id="name" >
+    <label for="name"><%= t('name') %></label>
+    <input type="text" class="form-control" id="name">
   </div>
   <div class="form-group">
-    <label for="lastName">Last Name</label>
-    <input type="text" class="form-control" id="lastName" >
+    <label for="lastName"><%= t('last_name') %></label>
+    <input type="text" class="form-control" id="lastName">
   </div>
   <div class="form-group">
-    <label for="company">Company</label>
-    <input type="text" class="form-control" id="company" >
+    <label for="company"><%= t('company') %></label>
+    <input type="text" class="form-control" id="company">
   </div>
   <div class="form-group">
-    <label for="jobtitle">Job Title</label>
-    <input type="text" class="form-control" id="position" >
+    <label for="jobtitle"><%= t('title') %></label>
+    <input type="text" class="form-control" id="position">
   </div>
   <div class="form-group">
-    <label for="phone">Phone</label>
-    <input type="text" class="form-control" id="position" >
+    <label for="phone"><%= t('phone') %></label>
+    <input type="text" class="form-control" id="position">
   </div>
    <div class="form-group">
-    <label for="email">E-mail</label>
-    <input type="text" class="form-control" id="name" >
+    <label for="email"><%= t('e_mail') %></label>
+    <input type="text" class="form-control" id="name">
   </div>
 </form>
 <form>
  
   <div class="form-group">
-    <label for="title">Title</label>
+    <label for="title"><%= t('title') %></label>
     <input type="text" class="form-control" id="name" >
   </div>
    <div class="form-group">
-    <label for="message">Message</label>
+    <label for="message"><%= t('message') %></label>
     <textarea class="form-control" rows="3"></textarea>
   </div>
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default"><%= t('submit') %></button>
 </form></div>
 </div>
             </div>

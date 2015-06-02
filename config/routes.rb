@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+
+   scope "(:locale)", locale: /en|es/ do
+  
+
   get 'pages/inicio'
 
   get 'pages/servicios'
@@ -14,6 +18,8 @@ Rails.application.routes.draw do
 
   # You can have the root of your site routed with "root"
   root 'pages#inicio'
+
+  end
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
