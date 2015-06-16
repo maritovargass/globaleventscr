@@ -362,44 +362,42 @@ Costa Rica</p>
 <%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;"><%= t('phone') %>: + (506) 2291-8173</p>
 <%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;"><%= t('phone') %>: + (506) 8341-4957</p>
   </div>
-  <div class="col-xs-8">
-    <form class="form-inline" action="MAILTO:contactus@globaleventsdmc.com" method="post" enctype="text/plain">
+
+  <form class="form-inline" action="MAILTO:contactus@globaleventsdmc.com" method="post" enctype="text/plain">
+
+  <div class="col-xs-4">
+    
   <div class="form-group">
     <label for="name"><%= t('name') %></label>
-    <input type="text" class="form-control" id="name">
+    <input type="text" class="form-control" id="name" name="name">
   </div>
   <div class="form-group">
     <label for="lastName"><%= t('last_name') %></label>
-    <input type="text" class="form-control" id="lastName">
+    <input type="text" class="form-control" id="lastName" name="lastName">
   </div>
   <div class="form-group">
     <label for="company"><%= t('company') %></label>
-    <input type="text" class="form-control" id="company">
+    <input type="text" class="form-control" id="company" name="company">
   </div>
+  
+</div>
+<div class="col-xs-4">
   <div class="form-group">
     <label for="jobtitle"><%= t('title') %></label>
-    <input type="text" class="form-control" id="position">
+    <input type="text" class="form-control" id="jobtitle" name="jobtitle">
   </div>
   <div class="form-group">
     <label for="phone"><%= t('phone') %></label>
-    <input type="text" class="form-control" id="position">
+    <input type="text" class="form-control" id="position" name="name">
   </div>
    <div class="form-group">
     <label for="email"><%= t('e_mail') %></label>
-    <input type="text" class="form-control" id="name">
+    <input type="text" class="form-control" id="email" name="email">
   </div>
 
- 
-  <div class="form-group">
-    <label for="title"><%= t('title') %></label>
-    <input type="text" class="form-control" id="name" >
-  </div>
-   <div class="form-group">
-    <label for="message"><%= t('message') %></label>
-    <textarea class="form-control" rows="3"></textarea>
-  </div>
   <button type="submit" class="btn btn-default"><%= t('submit') %></button>
-</form></div>
+  </div>
+</form>
 </div>
             </div>
         </div>
