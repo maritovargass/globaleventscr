@@ -363,7 +363,7 @@ Costa Rica</p>
 <%= image_tag("phone.svg", width: '20px', :style => "margin-left:20%;") %><p style="text-align: left; margin-left: 30%;"><%= t('phone') %>: + (506) 8341-4957</p>
   </div>
   <div class="col-xs-8">
-    <form class="form-inline">
+    <form class="form-inline" action="MAILTO:contactus@globaleventsdmc.com" method="post" enctype="text/plain">
   <div class="form-group">
     <label for="name"><%= t('name') %></label>
     <input type="text" class="form-control" id="name">
@@ -388,8 +388,7 @@ Costa Rica</p>
     <label for="email"><%= t('e_mail') %></label>
     <input type="text" class="form-control" id="name">
   </div>
-</form>
-<form>
+
  
   <div class="form-group">
     <label for="title"><%= t('title') %></label>
