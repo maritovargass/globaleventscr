@@ -1,5 +1,15 @@
 ---
 es:
+  simple_form:
+    labels:
+      contact:
+        name: "Nombre"
+        lastName: "Apellidos"
+        company: "Compañia"
+        jobtitle: "Puesto"
+        phone: "Teléfono"
+        email: "E-Mail"
+        message: "Mensaje"
   home: INICIO
   about_us: "NOSOTROS"
   testimonials: "TESTIMONIOS"
@@ -18,7 +28,7 @@ es:
   about_us_caption3: "lidera el Mercado"
   read_more: "Ver más"
   about_us_p1: "Con más de 25 años de experiencia en la industria de viajes, Global Events DMC se destaca con ideas personalizadas y creativas para cumplir con las más diversas necesidades y deseos de nuestros clientes. Un equipo calificado, nos hace el socio ideal cuando se trata de una planificación eficiente y rentable. Global Events DMC se ha comprometido a los estándares mas exigentes de la industria y las mejores prácticas empresariales. Nuestra experiencia y enfoque innovador nos permiten ser líderes en viajes de incentivos, convenciones, reuniones y eventos. Nuestros programas están hechos a medida para adaptarse a grupos grandes y pequeños, considerando nuestro amplio conocimiento, experiencia, mejores servicios y recursos en Costa Rica."
-  about_us_p2: "La operación de Global Events DMC cubre Costa Rica, Panamá y República Dominicana mejorando aún más nuestros conocimientos regionales y ventajas competitivas."
+  about_us_p2: "La operación de Global Events DMC cubre Costa Rica y Panamá mejorando aún más nuestros conocimientos regionales y ventajas competitivas."
   servicios_h1: "Testimonios"
   servicios_h5: "Nuestra manera de pensar es única, y nos preocupamos por transmitir esto en nuestros eventos."
   servicios_quote1: "Hay personas que hacen su trabajo y lo hacen bien y son eficientes.  Pero hay personas que hacen bien su trabajo y al mismo tiempo inyectan una dosis de profesionalismo, pasión, alegría, servicio al cliente, calidad, etc. Todos estos valores agregados son los que uno recibe de Global Events, particularmente de su lado donde son realmente especiales. Quiero también tomar esta oportunidad para expresar mi agradecimiento y aprecio a Marianella por un gran trabajo realizado. Puede estar seguros que fue un placer para nosotros trabajar con ustedes, ustedes son un verdadero equipo de éxito. Muchas gracias."
@@ -70,7 +80,7 @@ es:
   suenos_p1: "Descubra Los Sueños Marriott Ocean & Golf Resort, reconocido por la revista Travel & Leisure como uno de los -mejores hoteles del mundo para las familias-. Ubicado entre las cálidas aguas del Océano Pacífico y la selva tropical de 1,100 acres, nuestro complejo de lujo de Costa Rica cuenta con amplias habitaciones y suites con vistas impresionantes."
   marriot_p1: "Elegido por Condé Nast como uno de los mejores hoteles en Centroamérica, el Costa Rica Marriott Hotel San José ofrece hermosa arquitectura colonial en la hacienda, elegantes habitaciones y servicio excepcional. Esta localizado en una hacienda cafetalera de unos 30 acres. El hotel también ofrece una variedad de aclamados restaurantes que sirven diferentes platos de comida Latino Americana, así como deliciosos cocteles artesanales y bebidas de café.Las personas en busca de aventura disfrutaran de la proximidad al bosque lluvioso y de la tirolesa."
   inter_p1: "Idealmente ubicado para negocios o placer, junto al centro comercial más prestigioso de la ciudad con 365 tiendas, bares y restaurantes y los complejos empresariales más importantes. Este hotel cuenta con los mejores conceptos de entretenimiento y gastronómicos que incluyen 2 piscinas al aire libre en los jardines, el spa urbano más grande de América Central y 4 restaurantes con conceptos únicos, The Market, Factory Steak & Lobster, Nau Lounge y Alfredo Trattoria Italiana."
-  decor_h1: "Décor"
+  decor_h1: "Decoración"
   dine_h1: "Cenas Especiales"
   entertainment_h1: "Entretenimiento"
   giveaways_h1: "Regalos Especiales"
@@ -78,7 +88,10 @@ es:
   community_h1: "Programas de ayuda a la comunidad"
   team_h1: "Actividades de trabajo en equipo"
   back_top: "Ir arriba"
-  
+  thanks: "Su mensaje ha sido enviado. Pronto nuestro equipo se pondrá en contacto."
+  send: "Enviar"
+       
+
 
 
 

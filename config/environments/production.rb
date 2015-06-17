@@ -13,6 +13,22 @@ Rails.application.configure do
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
   config.action_controller.perform_caching = true
+  config.action_mailer.default_url_options = { :host => 'globaleventsdmc.com' }
+  config.action_mailer.delivery_method = :smtp
+config.action_mailer.perform_deliveries = true
+config.action_mailer.raise_delivery_errors = false
+config.action_mailer.default :charset => "utf-8"
+config.action_mailer.smtp_settings = {
+    :address   => "smtp.mandrillapp.com",
+    :port      => 25, # ports 587 and 2525 are also supported with STARTTLS
+    :enable_starttls_auto => true, # detects and uses STARTTLS
+    :user_name => "mvargas@qantamedia.com",
+    :password  => "rGdjTHnhNNxrYIXukPGx_A", # SMTP password is any valid API key
+    :authentication => 'login', # Mandrill supports 'plain' or 'login'
+    :domain => "globaleventsdmc.com", # your domain to identify your server when connecting
+    :from_email=>"contactus@globalevents.com",
+    :from_name=>"GlobalEvents"
+  }
 
   # Enable Rack::Cache to put a simple HTTP cache in front of your application
   # Add `rack-cache` to your Gemfile before enabling this.

@@ -20,6 +20,17 @@
 # available at http://guides.rubyonrails.org/i18n.html.
 
 en:
+  simple_form:
+    labels:
+      contact:
+        name: "Name"
+        lastName: "Last Name"
+        company: "Company"
+        jobtitle: "Job Title"
+        phone: "Phone"
+        email: "E-Mail"
+        message: "Message"
+        submit: "Send"
   home: "HOME"
   about_us: "ABOUT US"
   testimonials: "TESTIMONIALS"
@@ -98,12 +109,8 @@ en:
   community_h1: "Community Outreach Programs"
   team_h1: "Team Building"
   back_top: "Back to top"
-
-
-
-
-
-
+  thanks: "Your message has been sent. Soon our staff will reply your inquiry."
+  send: "Send"
 
 
 

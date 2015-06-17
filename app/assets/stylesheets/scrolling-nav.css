@@ -45,10 +45,16 @@ of those sections to manage the look and feel of the site. */
 }
 
 .nosotros-section {
-    height: 500px;
+    height: 700px;
     padding-top: 100px;
     text-align: left;
     background: #eee;
+}
+.thanks-section {
+    height: 200px;
+    padding-top: 100px;
+    text-align: left;
+    background: #d14b3a;
 }
 
 .servicios-section {
