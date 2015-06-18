@@ -191,3 +191,109 @@ of those sections to manage the look and feel of the site. */
     background: #eee;
     border-bottom: 2px solid #d14b3a;
 }
+
+@media(max-width:1024px) {
+.intro-section {
+    height: 500px;
+    
+}
+
+.nosotros-section {
+    height: 700px;
+    
+}
+.thanks-section {
+    height: 200px;
+   
+}
+
+.servicios-section {
+    height: 800px;
+    
+}
+
+
+.servicios2-section {
+    height: 100%;
+    
+}
+
+.regiones-section {
+    height: 1700px;
+   
+}
+.eventos-section {
+    height: 800px;
+    
+}
+.contactenos-section {
+    height: 650px;
+   
+}
+
+.footer-section {
+    height: 200px;
+   
+}
+
+.decoration-section {
+    height: 1000px;
+   
+}
+
+.dine-section {
+    height: 1000px;
+   
+}
+.norte-section {
+    height: 700px;
+    
+}
+
+.central-section {
+    height: 700px;
+    
+}
+.valle-section {
+    height: 700px;
+    
+}
+.lasmareas-section {
+    height: 700px;
+    
+}
+
+.andaz-section {
+    height: 850px;
+    
+}
+.seasons-section {
+    height: 850px;
+   
+}
+
+.westin-section {
+    height: 850px;
+   
+}
+
+.jw-section {
+    height: 850px;
+   
+}
+
+.lossuenos-section {
+    height: 850px;
+   
+}
+.marriott-section {
+    height: 850px;
+   
+}
+
+.inter-section {
+    height: 850px;
+   
+}
+
+}
