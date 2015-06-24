@@ -14,9 +14,7 @@ class Contact < MailForm::Base
     {
       :subject => "Cliente Potencial GlobalEventsDMC.com",
       :to => "contactus@globaleventsdmc.com",
-      :from => %("#{name}" <#{email}>),
-      :from_email=>"contactus@globalevents.com",
-      :from_name=>"GlobalEvents"
+      :from => %("#{name}" <#{email}>)
         
 
     }

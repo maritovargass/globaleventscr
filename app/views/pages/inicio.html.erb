@@ -13,8 +13,8 @@
                 <ul class="nav navbar-nav">
                   <a style="margin-right: 10px;"><%= link_to image_tag("in.svg", :alt => "Brand", :width => 30), "https://www.linkedin.com/company/global-events-dmc", :target => "_blank" %></a>
 <a style="margin-left: 10px;"><%= link_to image_tag("fb.svg", :alt => "Brand", :width => 30), "https://www.facebook.com/pages/Global-Events-DMC/764542110267778", :target => "_blank" %></a>
-<a style="margin-left: 10px;"><%= link_to image_tag("Spain.png", :alt => "Brand", :width => 30), root_path(locale: 'es') %></a>
-<a style="margin-left: 10px;"><%= link_to image_tag("United-States.png", :alt => "Brand", :width => 30), root_path(locale: 'en') %></a>
+<a style="margin-left: 10px;"><%= link_to image_tag("Spain.png", :alt => "Brand", :width => 30), root_path(locale: 'es'), data: { no_turbolink: true } %></a>
+<a style="margin-left: 10px;"><%= link_to image_tag("United-States.png", :alt => "Brand", :width => 30), root_path(locale: 'en'), data: { no_turbolink: true } %></a>
 
                     <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
                     <li class="hidden">
